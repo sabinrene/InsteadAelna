@@ -228,7 +228,6 @@ function createUserCourse (idCourse){
           if (response.data.x_cod_response == 4) {
             console.log('transacción fallida');
           }
-
           $('#fecha').html(response.data.x_transaction_date);
           $('#respuesta').html(response.data.x_response);
           $('#referencia').text(response.data.x_id_invoice);

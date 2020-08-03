@@ -475,7 +475,6 @@ function readLecture(idSection) {
     );
 
         document.getElementById('timeCourse').style.display = 'block';
-    //
 
 
 

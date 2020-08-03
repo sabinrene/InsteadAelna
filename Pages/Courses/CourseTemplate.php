@@ -106,9 +106,10 @@
 							</ul>
 					</div>
 
-          <!--
+
           <div id="timeCourse" class="timeCourse">
             <h3>Schedule</h3>
+            
              <div class="days">
                Monday      2pm   4pm
              </div>
@@ -121,7 +122,7 @@
                Friday      2pm   4pm
              </div>
           </div>
-          -->
+
 
 	<h2> Description </h2>
 					<div id="description" class="Desc">
