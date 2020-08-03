@@ -212,16 +212,8 @@ function createUserCourse (idCourse){
         if (response.success) {
 
           if (response.data.x_cod_response == 1) {
-
-
-
             getIdCourses();
-
-
-
             console.log('transacción aceptada');
-
-
           }
           //Transaccion Rechazada
           if (response.data.x_cod_response == 2) {
@@ -229,7 +221,8 @@ function createUserCourse (idCourse){
           }
           //Transaccion Pendiente
           if (response.data.x_cod_response == 3) {
-            console.log('transacción pendiente');
+            getIdCourses();
+            console.log('transacción aceptada');
           }
           //Transaccion Fallida
           if (response.data.x_cod_response == 4) {
