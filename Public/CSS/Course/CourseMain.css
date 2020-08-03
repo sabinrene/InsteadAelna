@@ -1,0 +1,367 @@
+/* ClearFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 58px;
+    margin: 0 0 58px;
+  }
+  p, li {
+    color: #adb7bd;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .divSelect{
+    display: inline-block;
+  }
+  .numberLectures{
+    display: inline-block;
+    float: right;
+  }
+  .time{
+    float: right;
+
+  }
+        /* --------------- */
+        /* Course Template */
+        /* --------------- */
+.CTop {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    background-color: #24305e;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%2329303b' fill-opacity='0.63' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+    .CTop-Vid {
+        position: absolute;
+        bottom: -250px;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 800px;
+        height: 450px;
+        background-color: black;
+        z-index: 10;
+    }
+    .CTop-Vid iframe {
+        width: 99.5%;
+        height: 99.5%;
+        border: 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+.CBot {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.CourseBox {
+    position: relative;
+    margin: 0 auto;
+    max-width: 500px;
+    min-height: 100px;
+    height: auto;
+    padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+}
+.CourseBox h2, h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+    .Cinema {
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+    .Cinema a {
+        text-decoration: none;
+        color: darkslategrey;
+    }
+
+
+
+  .CourseTemplate {
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  .TemplateWrap {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+  }
+
+
+  /* Course LEFT SIDE */
+  .Course-Left {
+    position: relative;
+    float: left;
+    width: 47%;
+  }
+
+
+
+
+  .Content {
+    height: auto;
+    margin-bottom: 80px;
+  }
+
+
+.accordion {
+  background-color: #F3F3F3;
+  color: #475868;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: 1px solid lightgrey;
+  margin-bottom: 4px;
+}
+.Acc-Right {
+  float: right;
+}
+
+.active, .accordion:hover {
+  background-color: #DCDCDC;
+
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+.panel-item {
+    padding: 20px;
+    background-color: #F8F8F8;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.panel-item:hover {
+    background-color: white;
+}
+
+
+
+
+
+  .LearnCard {
+    background: rgb(249, 249, 249);
+    border: 1px solid lightgrey;
+    width: 85%;
+    position: relative;
+    height: auto;
+    padding: 0px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+    .ToLearn {
+      margin-bottom: 20px;
+      margin-left: -30px;
+    }
+    .ToLearn-Item {
+      width: 100%;
+      height: auto;
+      float: left;
+      padding: 1px;
+      color: grey;
+      font-size: 0.9em;
+    }
+
+
+  /* Requirements */
+  .Reqs {
+    margin-bottom: 40px;
+  }
+  .Reqs li {
+    list-style-type: disc;
+    color: black;
+  }
+
+  /* Description */
+  .Desc {
+        width: 100%;
+        height: 500px;
+        overflow-y: scroll;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .Desc::-webkit-scrollbar {
+      display: none;
+  }
+  /* Hide scrollbar for IE and Edge */
+  .Desc {
+      -ms-overflow-style: none;
+  }
+  .Desc li {
+      list-style-type: disc;
+      color: black;
+  }
+  .Desc p {
+    color: black;
+  }
+  .Desc h2 {
+    margin-bottom: -5px;
+  }
+  .Desc h3 {
+    margin-bottom: -5px;
+    color: darkslategrey;
+  }
+
+
+
+
+
+  .Liked {
+    position: relative;
+    margin: 50px 0px;
+    height: auto;
+  }
+  .Liked-Row {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: 110px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgrey;
+  }
+  .Liked-Row-Pic {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    float: left;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    background-color: grey;
+  }
+
+  .Liked-Row-Title {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    float: left;
+    width: 52.5%;
+    padding-left: 10px;
+  }
+    .Liked-Row-Subtitle {
+      color: rgb(156, 151, 155);
+    }
+
+  .Liked-Row-Price {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    float: left;
+    width: 18%;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .Liked-Row-Like {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    float: left;
+    width: 5%;
+    text-align: center;
+  }
+
+    .Liked i {
+      color: red;
+    }
+    .Liked i:hover {
+      color: darkred;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Course RIGHT SIDE */
+  .Course-Right {
+    position: relative;
+    float: right;
+    width: 47%;
+  }
+
+
+
+/* Material Box */
+  .MaterialBox {
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      height: 350px;
+      overflow-y: auto;
+  }
+  .Mat-icon {
+      position: relative;
+      width: 45px;
+      vertical-align: middle;
+      left: 50%;
+      transform: translate(-50%,0);
+  }
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    position: sticky;
+    background: white;
+    text-align: center;
+    top: 0px;
+    padding: 4px 10px;
+    border: 0px;
+    z-index: 1;
+  }
+  td {
+    padding: 8px;
+    height: 70px;
+    font-size: 0.95em;
+  }
+  td{
+
+  }
+  td:first-child {
+      font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(243, 243, 243);
+  }

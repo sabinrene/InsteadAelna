@@ -1,0 +1,1161 @@
+/* ----- */
+/*  Home */
+/* ----- */
+body{
+     background-color: black;
+     border-right: 2px solid grey;
+     border-left: 2px solid grey;
+
+}
+/*------------------*/
+/*   Intro Banner   */
+/*------------------*/
+.Banner {  /*transition: width 2s, height 2s, transform 2s;*/
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    margin-bottom: 0px;
+}
+
+.BannerImg{
+    position: absolute;
+    width: 100vw;
+    height: 110%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*opacity: 0.80;*/
+    z-index: 0;
+}
+
+
+    .BannerImg-Layer {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        opacity: 0.25;
+    }
+
+
+
+    @keyframes slideInLeft {
+      from {
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+           }
+
+      to {
+        transform: translate3d(0, 0, 0);
+         }
+    }
+
+    @keyframes slideInRight {
+      from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+           }
+
+      to {
+        transform: translate3d(0, 0, 0);
+         }
+    }
+
+    @keyframes slideInTop {
+      from {
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+           }
+
+      to {
+        transform: translate3d(0, 0, 0);
+         }
+    }
+
+    .slideInLeft {
+      animation-name: slideInLeft;
+      animation-duration: 1.5s;
+    }
+    .slideInRight {
+      animation-name: slideInRight;
+      animation-duration: 1.5s;
+    }
+
+    .slideInTop {
+      animation-name: slideInTop;
+      animation-duration: 1s;
+    }
+
+
+
+
+
+    .BannerMsg {
+        position: absolute;
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%,-37%);
+
+        width: 75%;
+        max-width: 1100px;
+        text-align: center;
+        height: auto;
+        z-index: 1;
+        float: left;
+
+        font-size: 1.5em;
+        color: 	#F8F8F8;
+        text-shadow: 2px 2px 2px black;
+    }
+    .BannerMsg h1 {
+        color: 	#F8F8F8;
+        font-size: 2em;
+        margin-bottom: -5px;
+    }
+    .BannerMsg h2 {
+        font-size: 1.5em;
+    }
+
+
+
+
+
+    .BannerArrow{
+      position: absolute;
+      height: 80px;
+      top: 40%;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .arrow{
+      background-color: #0D0B0C;
+      height: 50px;
+      padding: 14px;
+      border-radius: 50%;
+      margin: 0 40px;
+      opacity: 60%;
+      cursor: pointer;
+      display: none;
+    }
+
+    .arrow:hover{
+      opacity: 100%;
+      transition: .5s;
+    }
+
+    .right{
+      float: right;
+    }
+
+
+
+
+
+
+
+
+    .contentCourses {
+      height: auto;
+      position: relative;
+      display: block;
+
+    }
+
+    .center{
+      position: relative;
+
+      left: 50%;
+      transform: translateX(-50%);
+
+      border-bottom: 1px solid grey;
+    }
+    .noBorderDown{
+      border-bottom: 1px solid transparent !important;
+    }
+
+    .divCourses{
+      vertical-align:top;
+      display: inline-block;
+      width: 36%;
+      height: 400px;
+      position: relative;
+      margin-top: 1%;
+      margin-bottom: 1%;
+    }
+
+
+
+    .margin-right{
+      margin-right: 2%;
+    }
+    .margin-left{
+      margin-left: 2%;
+    }
+
+
+
+
+
+
+
+
+    .TituleLiveCourses{
+      background-image: url('../../Public/images/00-Home/Woman.jpg');
+      background-size: auto 100%;
+    }
+/*
+
+.TituleOnlineCourses h2 {
+  bottom: 15px;
+  left: 30px;
+}
+.TituleOnlineCourses  p {
+  left: 30px;
+  bottom: 45px;
+}
+
+*/
+
+    .TituleLiveCourses h2 {
+      bottom: 35px;
+      right: 20px;
+    }
+    .TituleLiveCourses  p {
+      right: 20px;
+      bottom: 65px;
+      text-shadow: 2px 2px 0px black;
+    }
+    .ContentLiveCourses  p {
+      left: 20px;
+      bottom: 15px;
+      font-size: 25px;
+      color: black;
+      background-color: red;
+    }
+    .TextContentLiveCourses{
+      background-color: rgba(0,0,0,0.1);
+      width: 30%;
+      position: absolute;
+      bottom: 31%;
+      left: 5%;
+      padding: 20px;
+      text-align: justify;
+      color: black;
+      text-shadow: 1px 1px grey;
+
+    }
+    .TextContentOnlineCourses{
+      background-color: rgba(0,0,0,0.1);
+      width: 32%;
+      position: absolute;
+      bottom: 35%;
+      left: 48%;
+      height: 53%;
+      padding: 20px;
+      text-align: justify;
+      color: black;
+      text-shadow: 1px 1px grey;
+
+    }
+
+    .ContentLiveCourses{
+      vertical-align:top;
+      display: inline-block;
+      width: 58%;
+      height: 400px;
+      position: relative;
+
+      margin-top: 1%;
+      margin-bottom: 1%;
+
+      background-image: url('../../Public/images/00-Home/contentLive.jpeg');
+      background-size: cover;
+      border: 1px solid white;
+    }
+
+    .liveCoursesButton{
+      border-radius: 2px;
+      background-color: black;
+      color: white;
+      width: auto;
+      position: absolute;
+      width: 36%;
+      padding: 13px 30px;
+      bottom: 10%;
+      left: 25px;
+      transition: .3s;
+      cursor: pointer;
+      transition: 1s;
+
+    }
+    .liveCoursesButton:hover{
+      color: #e3e3e3;
+      transition: .3s;
+}
+
+
+
+.onlineCoursesButton{
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  width: auto;
+  position: absolute;
+  width: 35%;
+  padding: 13px 20px;
+  bottom: 10%;
+  right: 25px;
+  transition: .3s;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.onlineCoursesButton:hover{
+  color: #e3e3e3;
+  transition: .3s;
+}
+
+
+
+
+
+
+
+    .TituleOnlineCourses{/*titileOnline.jpeg*/
+      background-image: url('../../Public/images/00-Home/titileOnline.jpeg');
+      background-size: cover;
+    }
+
+    .TituleOnlineCourses h2, p, .TituleLiveCourses h2, p {
+      color: white;
+      text-shadow: 3px 3px 3px black;
+      position: absolute;
+    }
+    .TituleOnlineCourses h2 {
+      bottom: 15px;
+      left: 30px;
+    }
+    .TituleOnlineCourses  p {
+      left: 30px;
+      bottom: 45px;
+    }
+
+
+
+
+    .ContentOnlineCourses{/*contentOnline.jpeg*/
+      display: inline-block;
+      width: 58%;
+      height: 400px;
+      position: relative;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      background-image: url('../../Public/images/00-Home/contentOnline.jpeg');
+      background-size: cover;
+    }
+
+
+
+
+    .ContentOnlineCourses  p, .ContentLiveCourses  p {
+      color: white;
+      text-shadow: 1px 1px 0px black, -1px -1px 0px black;
+      position: absolute;
+      margin: 30px;
+      bottom: 30px;
+    }
+
+
+
+
+.cardsLiveOnline{
+  color: lightgrey!important;
+  background-color: rgba(0,0,0,0.4);
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+  left: 40px;
+  padding:3px  7px;
+  text-shadow: 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
+.MiniBanner {
+    position: relative;
+    background: black;
+    height: 80px;
+    color: white;
+    border: 2px solid grey;
+
+    }
+
+    .MiniBan-ModSec {
+        position: relative;
+        margin: 0 auto;
+        width: 900px;
+        height: 100%;
+        }
+        .MiniBan-Mod {
+            float: left;
+            width: 220px;
+            height: 100%;
+            margin-left: 80px;
+            }
+            .MiniBan-ModIn {
+                position: relative;
+                top: 50%;
+                transform: translate(0,-50%);
+            }
+
+@media only screen and (max-width: 870px) {
+  .MiniBanner {
+      display: none;
+      }
+}
+
+
+
+
+
+
+
+.MiniBanner2 {
+    position: relative;
+    background-color: #1f2022;
+
+    height: 80px;
+    color: white;
+    border: 2px solid grey;
+    }
+
+    .MiniBan-ModSec2 {
+        position: relative;
+        margin: 0 auto;
+        width: 900px;
+        height: 100%;
+        }
+        .MiniBan-Mod2 {
+            width: 420px;
+            height: 100%;
+            text-align: center;
+            background: #1f2022;
+            color: white;
+            margin: 0 auto;
+            }
+            .MiniBan-ModIn2 {
+                position: relative;
+                top: -40%;
+                transform: translate(0,-50%);
+                margin-top: 70px;
+            }
+            .MiniBan-ModIn2 h2 {
+              font-size: 1.5em;
+              color: white;
+            }
+
+
+@media only screen and (max-width: 870px) {
+  .MiniBanner {
+      display: none;
+      }
+}
+
+
+
+
+.Ins1{
+  display: none;
+}
+
+
+.Mode {
+  position: relative;
+  height: 600px;
+   }
+   .Mode p {
+     margin-top: 10px;
+   }
+   .Mode-Sub {
+     color: #696969;
+     font-weight: bold;
+   }
+
+   .Mode-in {
+     position: relative;
+     top: 50%;
+     transform: translate(0,-50%);
+     width: 90%;
+     height: 80%;
+     text-align: center;
+     margin: 0 auto;
+   }
+
+     .Mode-Pic {
+       height: 200px;
+       margin: 20px 0px;
+     }
+
+      .Mode-L {
+        position: relative;
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: white;
+      }
+      .Mode-R {
+        position: relative;
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: #f0f4f7;
+      }
+
+@media only screen and (max-width: 1000px) {
+    .Mode {
+      height: 620px;
+    }
+    .Mode-L {
+      width: 100%;
+    }
+    .Mode-R {
+      width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.Msg2 {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+    .Msg2-L {
+        background-color: powderblue;
+    }
+    .Msg2-R {
+
+    }
+@media screen and (max-width: 500px) {
+    .Msg2 {
+        width: 100%;
+    }
+    .Msg2-L {
+        background-color: palegreen;
+    }
+
+  }
+
+
+
+
+
+
+
+
+/* Two Column Layout */
+.TwoCol {
+    position: relative;
+    height: auto;
+    margin-bottom: 20px;
+}
+    .TwoCol h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.TwoCol-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.TwoCol-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.TwoCol-L {
+    left: 50px;
+    height: 400px;
+    padding: 20px;
+}
+    .TwoCol-L-in {
+        position: relative;
+
+    }
+
+.TwoCol-R {
+    height: 400px;
+    padding: 20px;
+}
+
+    .TwoCol-R-in {
+        position: relative;
+
+    }
+
+@media screen and (min-width: 800px) {
+    .TwoCol-col {
+      flex: 1;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Ins1 {
+    position: relative;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+    z-index: 1;
+}
+.Ins1-wrap {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0,-50%);
+    height: 370px;
+    background-color: white;
+}
+.Ins1-Left {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    background: whitesmoke;
+}
+
+.Ins1-Left-Mid {
+        position: relative;
+        height: auto;
+        top: 50%;
+        transform: translate(0,-50%);
+
+    }
+
+
+.Ins1-Right {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 70%;
+    border-bottom: 0.25rem solid #bdc3c7;
+}
+
+
+
+
+
+/* -------------------- */
+/*        Tabs          */
+/* -------------------- */
+.InsTabs-wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+    .Tabs-Instead {
+        position: relative;
+        background: #F8F8F8;
+        /*border: 1px solid rgba(73,62,132,1);
+        background: #015FB5;*/
+        height: 54px;
+    }
+    .Tabs-Instead::before,
+    .Tabs-Instead::after {
+        content: "";
+        display: table;
+    }
+    .Tabs-Instead::after {
+        clear: both;
+        }
+
+        .Tab-Instead {
+            float: left;
+        }
+        .Tab-Instead-switch {
+            display: none;
+            /* Hide RadioBtn */
+        }
+        .Tab-Instead-label {
+            position: relative;
+            display: block;
+            line-height: 2.75em;
+            height: 3em;
+            padding: 0 1.618em;
+            background: lightgrey;
+            border-right: 0.125rem solid white;
+            color: black;
+            cursor: pointer;
+            top: 0;
+            transition: all 0.25s;
+        }
+        .Tab-Instead-label:hover {
+            top: -0.25rem;
+            transition: top 0.25s;
+        }
+        .Tab-Instead-content {
+            height: 320px;
+            width: 800px;
+            position: absolute;
+            z-index: 1;
+            top: 2.95em;
+            left: 50%;
+            transform: translate(-50%,0);
+            padding: 0.8rem;
+            color: #2c3e50;
+            opacity: 0;
+            transition: all 0.35s;
+        }
+            .Tab-Instead-switch:checked + .Tab-Instead-label {
+                background: white;
+                color: black;
+                border-bottom: 0;
+                border-right: 0.125rem solid #fff;
+                transition: all 0.35s;
+                z-index: 1;
+                top: -0.0625rem;
+            }
+            .Tab-Instead-switch:checked + label + .Tab-Instead-content {
+                z-index: 2;
+                opacity: 1;
+                transition: all 0.35s;
+            }
+
+        /* Tabs Content */
+        .InsTabs-Card {
+            position: relative;
+            float: left;
+            width: 270px;
+            height: 300px; /* Card Height */
+            background-color: white;
+            margin-left: 55px;
+            margin-bottom: 35px;
+            padding: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            cursor: pointer;
+        }
+        .InsTabs-Card h4 {
+            font-size: 0.9em;
+        }
+        .InsTabs-Card h5 {
+            font-weight: lighter;
+        }
+
+        .InsTabs-Card:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        .InsTab-CardA { /* 130h x 220w */
+            position: relative;
+            background-size: cover;
+            height: 150px;
+            width: 100%;
+        }
+
+        .InsTab-CardA-Titles {
+            padding: 8px;
+        }
+
+        .InsTab-CardA-Price {
+            position: absolute;
+            right: 15px;
+            bottom: 15px;
+            font-size: 1.2em;
+        }
+
+
+
+
+
+
+
+
+
+
+.Ins2 {
+    position: relative;
+    height: 800px;
+    background-color: #1f2022;
+    border-bottom: 2px solid grey;
+}
+.Ins2-wrap {
+    position: relative;
+    top: 60%;
+    height: 100%;
+    transform: translate(0,-50%);
+    width: 1050px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.Ins2-wrap h3 {
+  font-weight: 300;
+  color: whitesmoke;
+  font-size: 1.25em;
+  margin-left: -30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+    /*    .horizontal-scroll-wrapper::-webkit-scrollbar {
+            width: 1px;
+            height: 1px;
+        }
+        .horizontal-scroll-wrapper::-webkit-scrollbar-button {
+            width: 1px;
+            height: 1px;
+        }
+
+        .horizontal-scroll-wrapper {
+            position: relative;
+            display: block;
+            width: 300px;
+            max-height: 900px;
+            margin: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-transform: rotate(-90deg) translateY(-350px);
+                    transform: rotate(-90deg) translateY(-350px);
+            -webkit-transform-origin: right top;
+                    transform-origin: right top;
+        }
+        .horizontal-scroll-wrapper > div {
+            display: block;
+            padding: 5px;
+            -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+            -webkit-transform-origin: right top;
+                    transform-origin: right top;
+        }
+        .squares {
+            padding: 300px 0 0 0;
+        }
+        .squares > div {
+            width: 300px;
+            height: 300px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+*/
+
+
+    /*    .Tabs-scroll-wrapper::-webkit-scrollbar {
+            width: 1px;
+            height: 1px;
+        }
+        .Tabs-scroll-wrapper::-webkit-scrollbar-button {
+            width: 1px;
+            height: 1px;
+        }
+
+        .Tabs-scroll-wrapper {
+            position: relative;
+            display: block;
+            width: 300px;
+            max-height: 900px;
+            margin: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-transform: rotate(-90deg) translateY(-350px);
+                    transform: rotate(-90deg) translateY(-350px);
+            -webkit-transform-origin: right top;
+                    transform-origin: right top;
+        }
+        .Tabs-scroll-wrapper > div {
+            display: block;
+            padding: 5px;
+            -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+            -webkit-transform-origin: right top;
+                    transform-origin: right top;
+        }
+        .rects {
+            padding: 300px 0 0 0;
+        }
+        .rects > div {
+            width: 300px;
+            height: 300px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+*/
+
+
+
+
+
+/*
+        .Tabs-scroll-wrapper-All {
+          background-color: red;
+            position: relative;
+            left: -400px;
+            display: block;
+            width: 500px;
+            max-height: 500px;
+            margin: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-transform: rotate(-90deg) translateY(-350px);
+                    transform: rotate(-90deg) translateY(-350px);
+            -webkit-transform-origin: right top;
+                    transform-origin: right top;
+        }
+
+        .Tabs-scroll-wrapper-All > div {
+            display: block;
+            padding: 5px;
+            -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+            -webkit-transform-origin: right top;
+                    transform-origin: right top;
+        }
+
+
+        .Tabs-scroll-wrapper-All::-webkit-scrollbar {
+            width: 1px;
+            height: 1px;
+        }
+        .Tabs-scroll-wrapper-All::-webkit-scrollbar-button {
+            width: 1px;
+            height: 1px;
+        }
+
+        .squares-All {
+            padding: 700px 0 0 0;
+        }
+        .squares-All > div {
+            width: 500px;
+            height: 300px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+.Ins3 {
+    position: relative;
+    height: 750px;
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(0,212,255,0) 100%);
+}
+
+    .Ins3 p {
+        font-size: 1.1em;
+        color: whitesmoke;
+    }
+    .Ins3 h1 {
+        text-align: left;
+        color: lightgrey;
+    }
+
+
+    .Ins3-LeftFloat {
+        position: absolute;
+        width: 45%;
+        float: left;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .Ins3-LeftFloat h2{
+      font-size: 35px;
+      color: lightgrey;
+      padding-bottom: 25px;
+      border-bottom: 1px solid white;
+}
+
+  .formularyDiv{
+    background-color: rgba(0,0,0,0.2);
+    padding: 20px;
+    position: relative;
+  }
+  .formularyDiv input{
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.formularyBottom{
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00AFBB;
+  border-radius: 4px;
+
+  text-align: center;
+  padding: 15px;
+  color: white;
+
+  margin: 10px 0;
+}
+.checkbox{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -color: red;
+  width: 80%;
+  color: white;
+  display: inline-block;
+}
+
+
+
+    .Ins3-Banner {
+        position: relative;
+        background-image: url("../../Public/images/00-Home/WindHills.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 100%;
+    }
+
+        .Ins3-BanTxt {
+            position: relative;
+            top: 25%;
+            left: 53%;
+            transform: translate(0, -25%);
+            z-index: 10;
+        }
+
+.formula {
+  background-color: red;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+.MsgSec {
+    position: relative;
+    background-color: #29303B;
+    height: 250px;
+    border: 1px solid white;
+}
+.Msg-Center {
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.Msg-Center h3 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.Msg-Center h5 {
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Mobile Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (max-width: 479px) {
+
+
+
+
+/* END Mobile Version */
+}
+
+/* ---------------------------------------------------------------- */
+/*                          Tablet Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     480px - 960px    */
+
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+
+
+/* END Tablet Version */
+}
+
+
+
+/* ------------------------------------------------------------*/
+/*                          Small Desktop                      */
+/* ----------------------------------------------------------- */
+                    /*     960px - 1249px    */
+
+@media only screen and (min-width: 961px) and (max-width: 1249px) {
+
+
+/* END Small Desktops */
+}

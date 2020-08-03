@@ -1,0 +1,230 @@
+/*---------- Edoxx Design ---------- */
+/*                                   */
+/*       Red-Dark:  #EA4A3B          */
+/*       Red-Light: #F75E4A          */
+/*       Red-Eddox: #993F3F          */
+/*                                   */
+/*       Blue: #                     */
+/*       Gray: #A8A8A8               */
+/*                                   */
+/*-- Fonts -- */
+/* Nanum Gothic */
+/* Crimson Text */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+/* PT Sans */
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* Instead Colors */
+    .insBlue {
+      color: #1e65a3;
+    }
+    .insRed {
+      color: #e9514a;
+    }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html a {
+    text-decoration: none;
+    color: #333333;
+}
+html a:hover {
+    color: #F75E4A;
+}
+html a:active {
+    color: grey;
+}
+body { /* Font-size Absolute Value */
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+p {
+    line-height: 1.75em;
+    font-size: 1em;
+    color: #787878;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    color: #353535;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* ---- Btns ----*/
+.BtnA {
+    position: relative;
+	background-color: #EA4A3B;
+	text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 20px;
+    cursor: pointer;
+
+    border-radius: 3px;
+
+	transition: all 0.6s ease-out 0s;
+    -o-transition: all .6s ease-out 0s;
+    -webkit-transition: all .6s ease-out 0s;
+    /* Padding and Width by Style */
+}
+a.BtnA:hover {
+    color: lightgrey;
+}
+
+
+
+/*---------- End Btns ---------- */
+.Clear {
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer {
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+    margin: 0px 20px;
+    font-size: 0.9em;
+}
+.Footer img {
+    position: relative;
+    float: left;
+    height: 30px;
+    top: 50%;
+    transform: translate(0,110%);
+    margin-right: 20px;
+}
+.Footer-Left {
+    float: left;
+    width: 420px;
+}
+.Footer-Right {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Mobile Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (max-width: 479px) {
+   body {
+       /* background-color: pink; */
+    }
+
+    .Btn {
+        padding: 15px 20px;
+    }
+
+}
+
+/* ---------------------------------------------------------------- */
+/*                          Tablet Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+     body {
+         /* background: lightyellow; */
+    }
+
+    .Btn {
+        padding: 15px 20px;
+    }
+
+}
+
+/* ---------------------------------------------------------------- */
+/*                          Small Desktops                          */
+/* ---------------------------------------------------------------- */
+                    /*     960px - 1249px    */
+
+@media only screen and (min-width: 961px) and (max-width: 1249px) {
+    body {
+        /* background: lightgreen; */
+    }
+    .Btn {
+        padding: 15px 40px;
+    }
+
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Desktop Styles                          */
+/* ---------------------------------------------------------------- */
+                    /*     960px - Infinity    */
+
+@media only screen and (min-width: 1250px) {
+
+    .Btn {
+        padding: 15px 40px;
+    }
+
+}

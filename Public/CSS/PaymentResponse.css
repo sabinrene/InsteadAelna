@@ -1,0 +1,20 @@
+.seeCourses{
+  text-align: center;
+  position: relative;
+}
+.seeCourses a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: block;
+  width: 120px;
+  background-color: #ebebeb;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.seeCourses a:hover{
+  text-decoration: none;
+}

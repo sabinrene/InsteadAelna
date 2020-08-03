@@ -1,0 +1,189 @@
+/* ClearFIX */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 58px;
+    margin: 0 0 58px;
+  }
+  p, li {
+    color: #adb7bd;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+        /* --------- */
+        /* Check Out */
+        /* --------- */
+
+.CheckOut-wrap {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+.CheckOut-wrap p {
+  color: black;
+}
+
+
+    .Check-L {
+      position: relative;
+      float: left;
+      width: 60%;
+      height: 100%;
+      padding: 20px;
+    }
+    .Check-L h2 {
+      margin-bottom: 40px;
+    }
+
+
+      .CartL {
+        position: relative;
+        width: 780px;
+        float: left;
+        margin: 40px 0;
+        padding: 10px;
+        height: auto;
+        font-size: 0.95em;
+      }
+        .CartL-Box {
+          position: relative;
+          border: 1px solid grey;
+          position: relative;
+          margin: 0 auto;
+          height: 120px;
+          width: 600px;
+        }
+
+        .L-BoxIn {
+          position: relative;
+          height: 90%;
+          margin-bottom: 40px;
+          top: 50%;
+          transform: translate(0,-50%);
+        }
+
+        .CartL-BoxPic {
+          position: relative;
+          float: left;
+          height: 100%;
+          width: auto;
+          overflow: hidden;
+        }
+        .BoxPic {
+          height: 100%;
+          padding-left: 5px;
+        }
+
+        .CartL-Titles {
+          position: relative;
+          float: left;
+          padding-left: 15px;
+          width: 400px;
+          height: 100%;
+          overflow: hidden;
+        }
+        .CartL-Titles h3 {
+          position: relative;
+          top: 50%;
+          transform: translate(0,-50%);
+        }
+        .CartL-Titles p {
+          color: #686f7a;
+          line-height: 18px;
+        }
+
+        .CartL-rem {
+          position: relative;
+          float: left;
+          padding-left: 10px;
+          top: 50%;
+          transform: translate(0,-50%);
+        }
+        .CartL-rem a {
+          color: #0f7b94;
+          text-decoration: none;
+        }
+        .CartL-Price {
+          position: relative;
+          float: right;
+          padding-right: 15px;
+          top: 50%;
+          right: 10%;
+          transform: translate(0,-50%);
+          color: #ec5252;
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+
+
+
+    .Check-R {
+      position: relative;
+      float: left;
+      width: 40%;
+      height: 100%;
+
+      background: black;
+    }
+      .Chk-Box {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: white;
+        padding: 25px;
+        width: 300px;
+        height: 275px;
+        border: 4px solid lightgray;
+      }
+      .Chk-Box span {
+        float: right;
+        font-weight: 600;
+      }
+
+      .smallprint {
+        font-size: 0.8em;
+        line-height: 1em;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .smallprint a {
+        color: #3c97ab;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+
+
+
+
+
+
+
+
+
+    .ChkOutBtn {
+      position: relative;
+      left: 50px;
+      background-color:#ec5252;
+      border:1px solid #d02718;
+      color:#ffffff;
+      font-size:17px;
+      font-weight:bold;
+      padding:19px 59px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #810e05;
+    }
+    .ChkOutBtn:hover {
+      background:linear-gradient(to bottom, #ec5252 25%, #c62d1f 100%);
+    }

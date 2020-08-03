@@ -1,0 +1,75 @@
+.stycky{
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+.menuRegister{
+  height: 60px;
+  position: relative;
+  padding: 0 35px;
+  background-color: white;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 0px 2px black;
+}
+/*----------------------------------------------------------------------------*/
+/*--------------------------------   Logo   ----------------------------------*/
+/*----------------------------------------------------------------------------*/
+.logo{
+  display: inline-block;
+}
+.logo a{
+  background-color: transparent;
+  font-weight: 400;
+  text-decoration: none;
+}
+.logo a img{
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: 3em;
+}
+/*------------------------------   btn   ---------------------------------*/
+.div {
+  display: inline-block;
+  float: right;
+  width: auto;
+  margin: 0 5px;
+  height: 100%;
+  padding-left: 15px;
+  position: relative;
+}
+
+.div:hover{
+  border-bottom: 2px solid white;
+  transition: .2s;
+}
+
+.btn{
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  top: 30%;
+  background-color: white;
+  text-decoration: none;
+
+
+  transform: translateY(-50%);
+  color: grey;
+  font-size: 18px;
+
+}
+.btn:hover{
+  color: black;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+/**/

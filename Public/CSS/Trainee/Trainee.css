@@ -1,0 +1,209 @@
+.user{
+  position: absolute;
+  right: 2em;
+  top: 2.5px;
+}
+.user img{
+  border-radius: 25px;
+  height: 55px;
+  cursor: pointer;
+}
+
+/*------------------------------  User div -----------------------------------*/
+.user-div{
+  padding-top: 1em;
+  width: 19em;
+  height: 20em;
+  background-color: white;
+  position: absolute;
+  top: 4em;
+  right:2em;
+  z-index: 2;
+  box-shadow: 0px 0px 5px #c2c2c2, -0px -0px 5px #c2c2c2;
+}
+
+.items{
+  height: 60px;
+  width: 100%;
+  transition: 1s;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  transition:  .2s;
+}
+.items:hover{
+  background-color: #F2F3F5;
+}
+.items img {
+  position: absolute;
+  border-radius: 1px;
+  left: 1em;
+  height: 50px;
+}
+.items .text-items {
+  margin-left: 3em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.items .text-items2{
+  margin-left: 3em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.items .text-items3{
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* Trainee */
+.TraineeArea {
+  position: relative;
+  background: #f5f5f5;
+}
+.Hi {
+    position: relative;
+
+    background-image: url("../../images/03-Trainee/Earth-Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    height: 250px;
+}
+  .Hi h1 {
+    position: relative;
+    text-transform: none;
+    top: 45%;
+    right: 25%;
+    transform: translate(0,-50%);
+    color: whitesmoke;
+  }
+
+.WhiteDivider {
+  position: relative;
+  height: 50px;
+}
+
+
+
+.Trainee-Wrap {
+    width: 1240px;
+    margin: 0 auto;
+    min-height: 40vh;
+}
+
+
+.Enrolled {
+  position: relative;
+  height: auto;
+}
+  .T-row {
+    position: relative;
+    height: auto;
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  .CardA {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
+    -moz-box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
+    box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
+  }
+  .CardA:hover {
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
+    box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
+  }
+  .CardA:hover .CardA-Cat p {
+    color: lightgrey;
+  }
+
+  .CardA h4 {
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  .CardA:first-child {
+    margin-left: 0px;
+  }
+    .CardA-PicFrame {
+      position: relative;
+      height: 140px;
+    }
+    .CardA-Pic {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+    .CardA-Cat {
+      background: black;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .CardA-Cat p {
+      color: white;
+      font-weight: bold;
+      font-size: 1.18em;
+    }
+    .CardA-Bot {
+      padding: 0px 12px;
+    }
+    .CardA-Bot p {
+      line-height: normal;
+      font-weight: 500;
+    }
+
+    .CardRibbon {
+      position: absolute;
+      left: 0px;
+      bottom: 20px;
+      display: block;
+
+      height: 30px;
+      width: 150px;
+      border: 2px solid black;
+
+      text-align: center;
+      color: white;
+
+      background: #2B2B2B;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+          				0 6px 10px rgba(0,0,0,.15);
+    }
+
+.CardA{
+  cursor: pointer;
+}
+
+
+.Explore {
+  position: relative;
+  height: 400px;
+  background: green;
+}

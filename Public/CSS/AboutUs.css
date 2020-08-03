@@ -1,0 +1,343 @@
+* {box-sizing: border-box;}
+
+/* --- Banner --- */
+.CTop {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-image: url("../images/BlueBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Top-Title {
+    position: relative;
+    top: 45%;
+    left: 5%;
+    width: 60%;
+    transform: translate(0%, -50%);
+    color: whitesmoke;
+}
+
+  .Top-Title h1 {
+    color: whitesmoke;
+    font-size: 2.5em;
+    opacity: 0.95;
+    text-shadow: 3px 1px 2px rgba(5, 0, 0, 1);
+  }
+
+.BotMenu {
+    position: relative;
+    top: 95px;
+    left: 100px;
+}
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding-left: 0px;
+    }
+    li {
+        color: #fff;
+        display: block;
+        float: left;
+        padding: 14px;
+        position: relative;
+        text-decoration: none;
+    }
+
+
+
+.Template-Body {
+    position: relative;
+    width: 90%;
+    max-width: 1250px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.ContentArea {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+
+  .Cont-1 {
+    position: relative;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .Cont-2 {
+    position: relative;
+    height: 320px;
+    margin: 60px 0px;
+  }
+
+    @media only screen and (max-width: 800px) {
+          .Cont-2 {
+              height: 450px;
+          }
+        }
+
+
+
+
+
+/* Our Team */
+    .Team {
+      position: relative;
+      padding-top: 30px;
+      left: 50%;
+      transform: translate(-50%,0%);
+      background: #f2f2f2;
+      width: 1750px;
+      height: auto;
+      margin-bottom: 80px;
+    }
+    .Team h1 {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+
+
+/* Alpha */
+    .RowAlpha {
+      position: relative;
+      height: 775px;
+      text-align: center;
+      width: 980px;
+      margin: 0 auto;
+    }
+      .Lead {
+        position: relative;
+        float: left;
+        width: 45%;
+        height: 850px;
+
+      }
+      .Lead:first-child {
+        margin-right: 98px;
+      }
+
+      .LeadInfo {
+        position: relative;
+        height: 480px;
+        padding-top: 20px;
+      }
+      .LeadInfo h2 {
+        margin-bottom: 5px;
+        font-size: 1.2em;
+      }
+
+      .LeadInfo h3 {
+        color: #e1273c;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+      }
+
+      .LeadInfo p {
+        font-size: 0.8em;
+        padding: 0px 30px;
+        margin-bottom: 15px;
+        height: 160px;
+      }
+
+
+        .LeadPic {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          margin-top: -50px;
+          margin-bottom: 10px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        #Jairo { background-image: url("../images/AboutUs/Jairo.png"); }
+        #Shani { background-image: url("../images/AboutUs/Shani.png"); }
+
+
+      .SocialMedia {
+        	/* Nichts */
+          position: relative;
+          top: -10px;
+        }
+
+        .SocialMedia a {
+        	display: inline-block;
+        	width: 35px;
+        	height: 35px;
+        	cursor: pointer;
+        	background-color:  #ffffff;
+        	border-radius: 2px;
+
+        	font-size: 20px;
+        	color: #33383b;
+        	text-align: center;
+        	margin-right: 1px;
+        	margin-bottom: 10px;
+        }
+        .SocialMedia a:hover {
+          color: #e1273c;
+        }
+
+
+    @media only screen and (max-width: 1050px) {
+        .RowAlpha {
+          width: 400px;
+          height: auto;
+          margin-bottom: 80px;
+        }
+        .Lead {
+          float: left;
+          width: 100%;
+          height: 700px;
+          margin-bottom: 120px;
+        }
+      }
+
+
+
+
+     /* BETA */
+    .RowBeta {
+      position: relative;
+      height: 800px;
+      width: 1650px;
+      margin: 0 auto;
+      text-align: center;
+    }
+      .Neoph {
+          position: relative;
+          float: left;
+          height: 350px;
+          width: 22%;
+        }
+        .Neoph:first-child {
+          margin-right: 40px;
+        }
+
+      .NeophInfo {
+        position: relative;
+        height: 480px;
+        padding-top: 20px;
+      }
+      .NeophInfo h2 {
+        margin-bottom: 5px;
+        font-size: 1.2em;
+      }
+
+      .NeophInfo h3 {
+        color: #e1273c;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+      }
+
+      .NeophInfo p {
+        font-size: 0.8em;
+        padding: 0px 30px;
+        margin-bottom: 15px;
+        height: 180px;
+      }
+
+    .NeophPic {
+      position: relative;
+      width: 100%;
+      height: 350px;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+      #Jules { background-image: url("../images/AboutUs/Jairo.png"); }
+      #Aelna { background-image: url("../images/AboutUs/Jairo.png"); }
+      #Vipul { background-image: url("../images/AboutUs/Jairo.png"); }
+      #Gaurav { background-image: url("../images/AboutUs/Jairo.png"); }
+
+      .Neoph-in {
+            position: relative;
+            float: right;
+            height: 350px;
+            width: 22%;
+            margin-left: 70px;
+      }
+
+      .Neoph-in:first-child {
+        margin-left: 80px;
+      }
+
+
+
+      @media only screen and (max-width: 1700px) {
+
+        .RowBeta {
+          width: 1300px;
+          height: auto;
+          margin-bottom: 80px;
+
+        }
+
+        .Neoph {
+          height: 700px;
+          margin-bottom: 10px;
+        }
+        .Neoph:first-child {
+          margin-right: 30px;
+        }
+        .Neoph-in {
+          float: right;
+          margin-left: 30px;
+        }
+
+      .NeophInfo p {
+        height: 250px;
+      }
+
+    }
+
+
+    @media only screen and (max-width: 1330px) {
+
+      .RowBeta {
+        width: 1200px;
+      }
+
+  }
+
+
+    @media only screen and (max-width: 1230px) {
+
+      .RowBeta {
+        width: 1100px;
+        color: lightblue;
+      }
+
+      .NeophInfo p {
+        height: 280px;
+      }
+
+  }
+
+
+    @media only screen and (max-width: 1120px) {
+        .RowBeta {
+          width: 400px;
+          height: auto;
+          margin-bottom: 80px;
+        }
+        .Neoph {
+          width: 100%;
+          height: 700px;
+          margin-bottom: 10px;
+        }
+
+              .NeophInfo p {
+                height: 145px;
+              }
+
+      }

@@ -1,0 +1,164 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.Menu {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.Banner {
+    position: relative;
+
+    background: url(../../images/Black.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+    .Banner-Txt {
+        position: relative;
+        top: 40%;
+        left: 42%;
+        transform: translate(-40%, -50%);
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .Banner-Txt a {
+        text-decoration: none;
+        color: white;
+    }
+    .Banner-Cap {
+        position: relative;
+    }
+
+.SecWrap {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+}
+
+.PCard {
+    position: relative;
+    margin-top: 40px;
+    width: 85%;
+    height: 300px;
+}
+
+    .BoxOne {
+        position: relative;
+        width: 90%;
+        height: 85%;
+        border-left: 4px solid #757a87;
+
+        font-size: 1.1em;
+        text-align: left;
+        top: 50%;
+        left: 5px;
+        padding: 5px;
+        transform: translate(0,-50%);
+        background-color: white;
+
+        -webkit-box-shadow: 1px 1px 10px -4px rgba(0,0,0,0.7);
+        -moz-box-shadow: 1px 1px 10px -4px rgba(0,0,0,0.7);
+        box-shadow: 1px 1px 10px -4px rgba(0,0,0,0.7);
+
+    }
+    /* Hide Scroll Bars */
+    ::-webkit-scrollbar {
+        display: none;
+      }
+
+    .BoxOne p {
+        color: #515b75;
+    }
+    .BoxOne p, h4, h5 {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+        .Live {
+            color: red;
+        }
+        .Online {
+            color: blue;
+        }
+
+
+    .BoxOne:hover {
+        background-color: white;
+        -webkit-box-shadow: 2px 2px 29px -4px rgba(0,0,0,0.7);
+        -moz-box-shadow: 2px 2px 29px -4px rgba(0,0,0,0.7);
+        box-shadow: 2px 2px 29px -4px rgba(0,0,0,0.7);
+    }
+
+        .PBtn {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translate(-50%,0);
+
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+
+
+
+.DivDescription{
+  height: 130px;
+  overflow-x:hidden;
+  width: 80%;
+  padding: 10px;
+}
+
+
+
+    .BoxTwo {
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+        right: -70px;
+        width: 300px;
+        height: 80%;
+        background-color: grey;
+    }
+        .BoxTwo img {
+            height: 100%;
+            width: 120%;
+
+        }

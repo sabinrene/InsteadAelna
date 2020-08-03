@@ -1,0 +1,588 @@
+/* ClearFIX */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 0 58px;
+}
+p, li {
+  color: #adb7bd;
+  font-size: 16px;
+  line-height: 26px;
+}
+ul {
+  list-style-type: none;
+}
+
+
+
+
+
+
+  /* ------ */
+  /* Course */
+  /* ------ */
+.CourseTemplate {
+  min-height: auto;
+}
+.CourseTemp-HeadBg {
+  background-color: #292c2f;
+  height: 320px;
+}
+
+.TemplateWrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.CourseHeader {
+  position: relative;
+  height: 320px;
+  }
+  .CourseHeader-in {
+    position: relative;
+    top: 55%;
+    transform: translate(0,-50%);
+  }
+
+  .CourseHeader h1 {
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .CourseHeader h2 {
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-bottom: -8px;
+    color: white;
+  }
+  .CourseHeader p {
+    color: white;
+    margin-bottom: -15px;
+  }
+
+.CourseTemp-Left {
+  position: relative;
+  float: left;
+  width: 63%;
+}
+
+
+
+
+
+.LearnCard {
+  position: relative;
+  left: -15px;
+  background: rgb(249, 249, 249);
+  border: 1px solid lightgrey;
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding: 15px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+  .ToLearn {
+    padding: 10px;
+  }
+  .ToLearn-Item {
+    width: 45%;
+    height: auto;
+    float: left;
+    color: #292c2f;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+/* Requirements */
+.Reqs {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.Reqs li {
+  list-style-type: disc;
+  color: black;
+  margin-left: 25px;
+  margin-bottom: -25px;
+}
+
+/* Description */
+.Desc {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  color: black;
+}
+.Desc li {
+    list-style-type: disc;
+    color: black;
+}
+.Desc p {
+  color: black;
+}
+.Desc h2 {
+  margin-bottom: -5px;
+}
+.Desc h3 {
+  margin-bottom: -5px;
+  color: darkslategrey;
+}
+
+
+
+
+
+
+
+
+/* Course Content */
+  .Content {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+.accordion {
+  background-color: #F3F3F3;
+  color: #475868;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: 1px solid lightgrey;
+  margin-bottom: 4px;
+}
+.accordion:first-child {
+  margin-top: 15px;
+}
+.Acc-Right {
+  float: right;
+}
+
+.active, .accordion:hover {
+  background-color: #DCDCDC;
+}
+.panel {
+  display: none;
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+.panel-item {
+    padding: 20px;
+    background-color: #F8F8F8;
+    margin-bottom: 2px;
+}
+.panel-item:hover {
+    background-color: white;
+}
+.Time {
+  float: right;
+}
+.numberLectures{
+  display: inline-block;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Liked */
+.Liked {
+  position: relative;
+  margin: 50px 0px;
+  height: auto;
+}
+.Liked-Row {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 110px;
+  font-weight: 500;
+  font-size: 0.80em;
+  border-bottom: 1px solid lightgrey;
+}
+.Liked-Row:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Liked-Row-Pic {
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  float: left;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  background-color: grey;
+}
+
+.Liked-Row-Title {
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  float: left;
+  width: 52.5%;
+  padding-left: 10px;
+}
+  .Liked-Row-Subtitle {
+    color: grey;
+    font-weight: 600;
+  }
+
+.Liked-Row-Price {
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  float: left;
+  width: 18%;
+  font-size: 1.2em;
+  text-align: center;
+}
+.Liked-Row-Like {
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  float: left;
+  width: 5%;
+  text-align: center;
+}
+
+  .Liked i {
+    color: red;
+  }
+  .Liked i:hover {
+    color: darkred;
+  }
+
+
+
+
+
+
+
+
+
+
+/* Right Side - Ribbon */
+.CourseTemp-Right {
+  position: absolute;
+  right: 10px;
+  width: 400px;
+  max-height: 230%; /* Fixes where RightBox goes down to */
+  z-index: 10;
+}
+
+.CourseTemp-Right-Container {
+  position: sticky;
+  margin-top: 70px;
+  top: 40px;
+  overflow-x: visible;
+
+  background-color: blue;
+  float: right;
+  right: 60px;
+
+  background: white;
+  text-align: center;
+  width: 370px;
+  height: auto;
+  border-radius: 10px;
+
+  box-shadow: 7px 10px 29px -10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 10px 29px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 29px -10px rgba(0,0,0,0.75);
+}
+
+
+    .Course-Pic {
+      position: relative;
+      margin: 0 auto;
+      width: 98%;
+      top: 4px;
+      height: 225px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    .Course-Price {
+      position: relative;
+      height: 60px;
+      margin-top: 20px;
+      Width: 100%;
+      margin-bottom: 15px;
+    }
+      .Course-Price h1 {
+        color: rgb(80, 87, 99);
+        text-align: center;
+        font-weight: bold;
+      }
+
+    .Course-Btns{
+      height: auto;
+      margin-bottom: 20px;
+    }
+        .Btn02 {
+          width: 140px;
+          background: red;
+          text-decoration: none;
+          padding: 10px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          border-radius: 4px;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+
+        .Btn02:hover {
+          background: red;
+          border-radius: 6px;
+          font-weight: bolder;
+          color: lightgrey;
+        }
+
+        .colorBlack{
+          background: black !important;
+        }
+        .colorBlack:hover{
+          background: grey !important;
+        }
+
+
+      /* Course Includes */
+      .Course-includes {
+        margin: 40px 0;
+      }
+
+      .Course-includes p {
+        position: relative;
+        color: black;
+        margin-bottom: -10px;
+      }
+      .Course-includes li {
+          color: rgb(80, 87, 99);
+          text-align: center;
+      }
+
+      /* Share Me */
+      .ShareMe {
+        position: relative;
+        background: darkred;
+        height: 60px;
+        line-height: 60px;
+      }
+
+
+
+/* Ribbon */
+      .ribbon-wrapper {
+        position: relative;
+        z-index:998;
+        height: 100px;
+        background: whitesmoke;
+      }
+      .ribbon-wrapper a {
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+     .ribbon-front {
+       background-color: red;
+       	height: 50px;
+       width: 390px;
+       height: 65px;
+       position: relative;
+       left:-10px;
+       z-index: 2;
+       font:20px/50px bold Verdana, Geneva, sans-serif;
+       color:#f8f8f8;
+       text-align:center;
+       text-shadow: 0px 1px 2px #cc6666;
+     }
+
+     .ribbon-front,
+     .ribbon-back-left,
+     .ribbon-back-right {
+        position: relative;
+        line-height: 65px;
+        font-weight: bold;
+
+       -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+       -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+       -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+       -o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+      }
+      .ribbon-front a {
+        text-decoration: none;
+        color: white;
+      }
+
+     .ribbon-edge-topleft,
+     .ribbon-edge-topright,
+     .ribbon-edge-bottomleft,
+     .ribbon-edge-bottomright {
+       position: absolute;
+       z-index: 1;
+       border-style:solid;
+       height:0px;
+       width:0px;
+      }
+
+     .ribbon-edge-bottomleft,
+     .ribbon-edge-bottomright {
+     top: 50px;
+    }
+
+     .ribbon-edge-topleft,
+     .ribbon-edge-bottomleft {
+       left: -10px;
+       border-color: transparent #9B1724 transparent transparent;
+    }
+
+     .ribbon-edge-topleft {
+       top: -5px;
+       border-width: 5px 10px 0 0;
+    }
+     .ribbon-edge-bottomleft {
+       border-width: 0 10px 0px 0;
+      }
+
+     .ribbon-edge-topright,
+     .ribbon-edge-bottomright {
+       left: 370px;
+       top: 64px;
+       border-color: transparent transparent transparent #9B1724;
+      }
+
+     .ribbon-edge-topright {
+       top: 0px;
+       border-width: 0px 0 0 10px;
+     }
+     .ribbon-edge-bottomright {
+       border-width: 0 0 5px 10px;
+      }
+
+
+
+      /* Glow Animation */
+        @-webkit-keyframes flow {
+         0% { left:-20px;opacity: 0;}
+         50% {left:100px;opacity: 0.3;}
+           100%{ left:180px;opacity: 0;}
+        }
+        @keyframes flow {
+         0% { left:-20px;opacity: 0;}
+         50% {left:100px;opacity: 0.3;}
+           100%{ left:180px;opacity: 0;}
+        }
+
+        .glow{ background: rgb(255,255,255); width:40px; height:100%; z-index:999; position:absolute;-webkit-animation: flow 1.5s linear infinite;-moz-animation: flow 1.5s linear infinite;-webkit-transform: skew(20deg);
+            -moz-transform: skew(20deg);
+              -o-transform: skew(20deg);background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(1%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* IE10+ */
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */ border-left:1px solid #fff;}
+
+
+
+
+
+
+
+
+
+
+/* Schedule */
+
+
+
+
+
+
+
+
+
+
+
+      .Row2 {
+        position: relative;
+        background: blue;
+        margin-top: 20px;
+      }
+        .About {
+          position: relative;
+          float: left;
+        }
+        .Schedule {
+          position: relative;
+          float: left;
+          left: 50%;
+          transform: translate(-50%, 0%);
+        }
+          table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+          }
+          tr:hover {
+            background-color:#f5f5f5;
+          }
+          .OddRow {
+            color: grey;
+            font-weight: bold;
+            padding-left: 15px;
+          }
+
+          .timeCourse{
+            position: relative;
+            text-align: center;
+            display: block;
+            height: auto;
+            width: 200px;
+            border-radius: 6px;
+            margin: 17px;
+          }
+          .days{
+            border-bottom: 1px solid black;
+            padding: 8px;
+            text-align: left;
+          }

@@ -1,0 +1,104 @@
+/*----------------------------------------------------------------------------*/
+/*-------------------------------   Modal   ----------------------------------*/
+/*----------------------------------------------------------------------------*/
+.bg-modal{
+  position: absolute;
+  width: 100vw;
+  height: 285vh;
+  background-color: rgba(83,89,99,0.3);
+  z-index: 1;
+  background-size: cover;
+  display: none;
+}
+.hide{display: none;}
+.modal{
+  position: absolute;
+  left: 35%;
+  top: 8%;
+  width: 380px;
+  height: auto;
+  background-color: white;
+  margin: 17px auto ;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px grey, -1px -1px 2px grey ;
+  z-index: 2;
+  display: none;
+}
+.modal .head-modal {
+  border-bottom: solid 1px #dedfe0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #29303b;
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 24px 0 ;
+  display: flex;
+}
+.modal .head-modal h4{
+  flex: 5;
+  text-align: left;
+  font-size: 16px;
+  height: 15px;
+  margin: 0;
+  padding-left: 30px;
+}
+.modal .head-modal img {
+  padding-right: 35px;
+  height: 18px;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/*-------------------------------   Form   -----------------------------------*/
+.modal .body {
+  text-align: center;
+}
+.modal .body form {
+  padding-top: 19px;
+}
+
+input{
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #29303b;
+  font-size: 18px;
+  height: auto;
+  width: 250px;
+  padding: 11px 45px 12px 40px;
+  padding-left:30px;
+}
+.firsName{
+  background: url(../images/icon/firstName.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+
+}
+.lastName{
+  background: url(../images/icon/lastName.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+
+}
+.email{
+  background: url(../images/icon/email.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+
+}
+.password{
+  background: url(../images/icon/password.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+}
+input[type=submit]{
+  margin: 10% 7% !important;
+  width: 80%;
+}
+
+*:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+.userType {
+  display: none;
+}

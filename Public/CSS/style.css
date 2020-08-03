@@ -1,0 +1,280 @@
+
+header {
+  height: 65px;
+  /*background-color: red;*/
+  box-shadow: 1px 1px 3px grey;
+  display: flex;
+  padding: 0 20px;
+  position: relative;
+}
+/*----------------------------------------------------------------------------*/
+/*--------------------------------   Logo   ----------------------------------*/
+/*----------------------------------------------------------------------------*/
+.logo{
+  /*background-color: green;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo a{
+  background-color: transparent;
+  font-weight: 400;
+  text-decoration: none;
+}
+.logo a img{
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  height: 2em;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------   Header-left   -------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+.header-left{
+  flex: 1.35;
+  align-items: center;
+  justify-content: center;
+/*  background-color: black;*/
+}
+/*.categories{
+  font-size: 13px;
+  margin: 0 2px;
+  padding: 10px 0;
+  background-color: white;
+}*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------   Header-right   ------------------------------*/
+/*----------------------------------------------------------------------------*/
+.header-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: green;*/
+}
+.div {
+  justify-content: flex-end;
+  align-items:center;
+  width: 90px;
+  height: 65px;
+}
+/*------------------------------   business   ---------------------------------*/
+.business{
+  flex: 2;
+  /*background-color: green;*/
+}
+
+/*------------------------------   card   ---------------------------------*/
+.cart{
+  flex: 1;
+/*  background-color: yellow;*/
+}
+
+/*------------------------------   trainer   ---------------------------------*/
+.trainer{
+  flex: 2.2;
+}
+.trainer .teach-link{
+  font-size: 0.9em;
+  margin: 0.6em 0;
+  font-weight:200;
+  padding: 1.1em 1.4em;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #5A606E;
+}
+.trainer .teach-link:hover{
+background-color: #F3F3F3;
+transition: all .3s;
+}
+.trainer .teach-link a{
+text-decoration: none;
+color: #5A606E;
+}
+
+/*------------------------------   btn   ---------------------------------*/
+.btn{
+  height: 65%;
+  width: 95%;
+  margin: 14% 0%;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  padding: auto 0px;;
+}
+.btn-l0ngin{
+  border: 1px solid #676E7B;
+  background-color: transparent;
+  color: #676E7B;
+}
+.btn-signup{
+  border: 1px solid transparent;
+  background-color: #FF3440;
+  color: white;
+}
+/*--------------------   btn hover   -----------------------*/
+
+.btn-longin:hover{
+  color: black;
+  transition: .5s;
+}
+.btn-signup:hover{
+  background-color: #A8002D;
+  transition: .5s;
+}
+/*--------------------   btn active   -----------------------*/
+
+.btn-longin:active{
+  background-color: #F7F8FA;
+  transition: .5s;
+}
+.btn-signup:active{
+  background-color: #4C0000;
+  transition: .5s;
+}
+
+/*--------------------------------   login   ---------------------------------*/
+.login{
+  flex: 1.1;
+  background-color: transparent;
+}
+.signup{
+  flex: 1.2;
+  background-color: transparent;
+}
+
+/*----------------------------------------------------------------------------*/
+/*-------------------------------   Modal   ----------------------------------*/
+/*----------------------------------------------------------------------------*/
+.bg-modal{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(83,89,99,0.3);
+  z-index: 1;
+  background-size: cover;
+  display: none;
+}
+.modal{
+  position: relative;
+  width: 380px;
+  height: auto;
+  background-color: white;
+  margin: 17px auto ;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px grey, -1px -1px 2px grey ;
+  z-index: 2;
+  display: none;
+}
+.modal .head {
+  border-bottom: solid 1px #dedfe0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #29303b;
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 24px 0 ;
+  display: flex;
+}
+.modal .head h4{
+  flex: 5;
+  text-align: left;
+  font-size: 16px;
+  height: 15px;
+  margin: 0;
+  padding-left: 30px;
+}
+.modal .head img  {
+  padding-right: 35px;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/*-------------------------------   Form   -----------------------------------*/
+.modal .body {
+  text-align: center;
+}
+.modal .body form {
+  padding-top: 19px;
+}
+
+input{
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #29303b;
+  font-size: 18px;
+  height: auto;
+  width: 250px;
+  padding: 11px 45px 12px 40px;
+  padding-left:30px;
+}
+.firsName{
+  background: url(../img/icon/firstName.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+
+}
+.lastName{
+  background: url(../img/icon/lastName.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+
+}
+.email{
+  background: url(../img/icon/email.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+
+}
+.password{
+  background: url(../img/icon/password.png) no-repeat scroll 7px 13px;
+  background-size: 18px 18px;
+}
+input[type=submit]{
+  margin: 10% 7% !important;
+  width: 80%;
+}
+
+*:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+.userType {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

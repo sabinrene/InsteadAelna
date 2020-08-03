@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.Menu {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.Banner {
+    position: relative;
+    background: url(../../images/Black.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+    .Banner-Txt {
+        position: relative;
+        top: 40%;
+        left: 40%;
+        transform: translate(-40%, -50%);
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .Banner-Txt a {
+        text-decoration: none;
+        color: white;
+    }
+    .Banner-Cap {
+        position: relative;
+    }
+
+.Live-SecWrap {
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+
+.Live-TwoCols {
+    position: relative;
+    margin-top: 60px;
+    height: 800px;
+}
+
+.Live-SecL {
+    position: relative;
+    float: left;
+    width: 60%;
+
+    margin: 50px 0px;
+}
+
+    .CourseTitle {
+        margin-bottom: 20px;
+    }
+
+    .Description {
+
+    }
+
+.Live-SecR {
+    position: relative;
+    float: left;
+    width: 40%;
+    right: -150px;
+    height: 100%;
+
+    background: url(../../images/Sections/Bg2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.Live-Box {
+    position: relative;
+    margin: 0 auto;
+    width: 220px;
+    height: 240px;
+}
+
+    .Price {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1.5em;
+        height: 50px;
+        background-color: black;
+    }
+    .Price h2 {
+        color: white;
+        text-align: center;
+        font-size: 1em;
+        top: 40%;
+        transform: translate(0,20%);
+
+    }
+
+    .BoxBot{
+        height: 100%;
+        background-color: #ededed;
+    }
+
+
+    .BoxBot-Desc {
+      position: relative;
+      height: auto;
+      margin-bottom: 50px;
+    }
+        .BoxBot-Desc .PartOne {
+          float: left;
+          margin-right: 100px;
+        }
+        .BoxBot-Desc p {
+          margin: 10px 0px 20px 0px;
+        }
+
+        .BoxBot-Desc ul {
+          margin-left: 30px;
+        }
+
+
+
+
+
+        .BoxBot-Txt {
+            position: relative;
+            background-color: #ededed;
+            padding: 15px;
+            top: 25px;
+        }
+            .BoxBot-Txt span {
+                font-weight: bold;
+            }
+
+            .BoxBot-Txt p {
+                margin-bottom: 5px;
+            }
+
+    .PBtn {
+        position: absolute;
+        bottom: -80px;
+        left: 50%;
+        transform: translate(-50%,0);
+
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+    }

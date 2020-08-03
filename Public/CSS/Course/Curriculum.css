@@ -1,0 +1,390 @@
+    .courseLandingPage{
+        background-color: transparent;
+        height: 140%;
+        position: relative;
+    }
+    .content{
+        background-color: white;
+        width: 95%;
+        height: auto;
+        position: absolute;
+        top: 2.5em;
+        left:1em;
+        box-shadow: 0px 0px 15px #c2c2c2, -0px -0px 15px #c2c2c2;
+    }
+    .header{
+      height: 100px;
+      border-bottom: 1px solid #DEDFE0;
+    }
+    .title{
+      font-size: 25px;
+      padding: 1.5em 1.8em;
+    }
+    label{
+      display: block;
+      margin: 0px 0 0.3em 3em;
+      margin-left: 3em;
+      width: 80%;
+    }
+    input,textarea{
+      margin-left: 2.3em;
+      width: 91%;
+      height: 44px;
+      border: 1px solid grey;
+      font-size: 15px;
+    }
+    input{
+      padding-left: 20px;
+    }
+    input:focus,textarea:focus,select:focus,
+    input:active,textarea:active,select:active {
+    outline: 1px solid #58C7D9;
+    }
+    input:hover,textarea:hover,select:hover {
+      border: 1px solid #C0C0C0;
+    }
+    textarea{
+      padding: 5px 10px !important;
+      height: 100px;
+    }
+    .divSelect{
+      display: inline-block;
+    }
+    .select{
+      margin-left: 1.9em;
+    }
+    select {
+      display: inline-block;
+      appearance: none;
+      -webkit-appearance: none;
+      width: 280px;
+      height: 3.1em;
+      margin: 0em 1em;
+      display: inline-block;
+      background: url(../../images/02-Course/02-01-CourseLandingPage/select.png) no-repeat scroll 95% center;
+      background-size: 10px 10px;
+      background-color: #F5F5F5;
+      border: 1px solid #C0C0C0;
+      text-indent: 10%;
+      font-size: 1em;
+    }
+
+    .updateLectureData{
+      text-align: center;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+
+    }
+    .updateLectureData:hover{
+      border: 1px solid black;
+    }
+    .updateLectureData:active{
+      border: 1px solid #ccc;
+    }
+/*----------------------------------------------------------------------------*/
+/*---------------------------------- log in ----------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/*---------------------------------  Section ---------------------------------*/
+  .section-container{
+    margin: 5% 7%;
+    padding: 40px;
+    background-color: #f2f3f5;
+    position: relative;
+    border: 1px solid #CACBCC;
+  }
+  .img-addSection{
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    cursor: pointer;
+  }
+  .img-addSection:hover{
+    transform: scale(1.04);
+}
+.img-addSection:active{
+    transform: scale(0.97);
+}
+  .section{
+    position: relative;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #CACBCC;
+    display: block;
+    margin: 20px  0 0 0;
+    border-radius: 7px;
+  }
+  .section h2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    margin-left: 15px;
+    display: block;
+    width: 60%;
+    cursor: pointer;
+  }
+
+  .section img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3px;
+    height: 30px;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .section img:hover{
+    opacity: 1;
+  }
+  .section .img-2{
+    right: 30px;
+  }
+  .section .img-4{
+    right: 64px;
+    height: 19px;
+  }
+  .iconUpdateSectionName{
+    height: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  .iconUpdateSectionName:hover{
+    width: 50px;
+  }
+  .iconUpdateSectionName:active{
+    width: 45px;
+  }
+/*-------------------------------  Section edit ------------------------------*/
+.editSection{
+  border: 1px solid #CACBCC;
+  padding: 10px;
+  position: relative;
+}
+.section-container input{
+  width: 80%;
+}
+.section-container  .img-save-section{
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+.closeEditSection{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+
+/*------------------------------  Section lecture ----------------------------*/
+.lecture{
+  margin: 0px 0px;
+  position: relative;
+  height: 50px;
+  background-color: #fcfcfc;/**/
+  border: 1px solid #CACBCC;
+  display: block;
+  border-radius: 3px;
+}
+.lecture h5{
+  font-weight: 500;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 25px;
+  font-size: 17px;
+  width: 80%;
+  cursor: pointer;
+}
+.lecture img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3px;
+  height: 30px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.lecture img:hover{
+  opacity: 1;
+}
+.lecture .img-2{
+  right: 30px;
+}
+
+
+/*---------------------------  Section edit lecture --------------------------*/
+.editLecture{
+  position: relative;
+  height: auto;
+  background-color:white;/* #fcfcfc*/
+  border: 1px solid #CACBCC;
+  display: block;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 30px 0px;
+  margin: 0 auto;
+}
+.editLecture input{
+  height: 30px;
+  width: 90%;
+}
+.editLecture .closeEditLecture{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: grey;
+}
+.editLecture .closeEditLecture:hover{
+  color: black;
+}
+.editLecture .closeEditLecture:active{
+  color: grey;
+}
+
+
+.timeCurriculum{
+  width: 230px;
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  transform: translateX(-50%);
+  z-index: 2;
+  margin: 20px 20px;
+}
+
+/*-------------------------------- add Section -------------------------------*/
+    .saveLecture{
+      position: relative;
+      display: block;
+      text-align: center;
+      background-color: white;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      left: 50%;
+      padding: 7px;
+      transform: translateX(-50%);
+      border-radius: 4px;
+      color: black;
+      width: 15%;
+      margin: 7px;
+      border: 1px solid grey;
+    }
+    .saveLecture:hover{
+      color: grey;
+    }
+    .saveLecture:active{
+      color: black;
+    }
+
+/*------------------------------------ PDF -----------------------------------*/
+.PDF-container{
+  margin: 50px 0;
+  padding: 10px 0;
+}
+.border{
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #BDBDBD;
+  position: relative;
+  margin-left: 15px;
+}
+.PDFContainer{
+  background-color: #FCFCFC;
+}
+
+.imgPDF {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3px;
+  height: 30px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.imgPDF:hover{
+  opacity: 1;
+}
+ .img-3{
+  right: 30px;
+}
+
+
+
+
+
+
+
+.editLecture label {
+  margin-bottom: 10px;
+}
+.editLecture input{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+}
+
+
+.BoxTwo {
+  position: relative;
+  width: 95%;
+}
+.BoxTwo input[type=text] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.BoxOne {
+  position: relative;
+  width: 95%;
+}
+.BoxOne input[type=text] {
+  position: relative;
+
+  width: 50px;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: left;
+}
+
+
+
+.VidBox {
+  padding: 10px;
+  text-align: center;
+}
+.VidBox p {
+  height: 30px;
+}
+.VidLink {
+  background-color: black;
+  width: 50;
+}
+
+
+.morePDF {
+  position: relative;
+  width: 95%;
+  font-size: 0.85em;
+  text-align: right;
+
+}
+.morePDF a {
+  text-decoration: none;
+  color: darkslategrey;
+  cursor: pointer;
+}
+.titlePHP{
+  cursor: pointer;
+  font-weight: 300;
+}

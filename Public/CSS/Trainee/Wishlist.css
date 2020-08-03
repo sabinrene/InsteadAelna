@@ -1,0 +1,188 @@
+* {box-sizing: border-box;}
+
+/* ClearFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+  }
+  
+/* Search Box */
+.SearchNav {
+    overflow: hidden;
+    padding: 20px;
+    background-color: #e9e9e9;
+    margin-bottom: 40px;
+  }
+  .SearchNav .SearchBox {
+    float: right;
+  }
+  .SearchNav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }   
+  .SearchNav .SearchBox button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .SearchNav .SearchBox button:hover {
+    background: #ccc;
+  }
+
+  
+
+
+        /* ------------- */
+        /* Shopping Cart */
+        /* ------------- */
+.CTop {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #24305e;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%2329303b' fill-opacity='0.63' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+
+.Top-Title {
+    position: relative;
+    top: 45%;
+    left: 5%;
+    width: 60%;
+    transform: translate(0%, -50%);
+    color: whitesmoke;
+    text-shadow: 0px 2px 3px #555;
+    font-size: 3em;
+    text-shadow: 1px 1px 4px #def, 0 0 0 #000, 1px 1px 0px #def;
+}
+/* Don't show shadows when selecting text */
+.Top-Title::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+.Top-Title::selection { background: #5af; color: #fff; text-shadow: none; }
+
+
+.BotMenu {
+    position: relative;
+    top: 95px;
+    left: 100px;
+}
+    ul {    
+        list-style: none;
+        margin: 0px;
+        padding-left: 0px;
+    }
+    li {
+        color: #fff;
+        display: block;
+        float: left;
+        padding: 14px;
+        position: relative;
+        text-decoration: none;
+    }
+    li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    li:hover {
+        border-bottom: 4px solid lightgrey;
+        cursor: pointer;
+    }
+
+.active {
+    border-bottom: 4px solid white;
+}
+
+
+
+
+
+
+.Template-Body {
+    position: relative;
+    width: 90%;
+    max-width: 1250px;
+    min-height: 600px;
+    margin: 0 auto;   
+}
+
+.CourseArea {
+    position: relative;
+    background-color: violet;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+    /* Tabs Content */
+    .InsTabs-Card {
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        width: 260px;
+        height: 330px; /* Cards Height */
+        background-color: white;
+        padding: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+
+    .InsTabs-Card:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    .InsTab-CardA { 
+        position: relative;
+        background-size: cover;
+        height: 145px;
+        width: 100%;
+    }
+
+    .InsTab-CardA-Titles {
+        position: relative;
+        padding-left: 4px;
+        padding-right: 15px;
+    }
+
+
+    .InsTab-CardA-Titles h5 {
+        font-weight: lighter;
+        color: #5a5a5a;
+        font-size: 0.9em;
+        margin-top: 0px;
+    }
+    .InsTab-CardA-Titles h4 {
+            font-size: 1em;
+            color: #29303b;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .PriceTag {
+            text-align: right;
+            padding-bottom: 10px;
+        }
+
+    .InsTab-CardA-Titles h6 {
+            text-align: right;
+            font-size: 0.95em;
+            color: #29303b;
+            font-weight: lighter;
+            margin: 0px;
+        }
+
+
+
