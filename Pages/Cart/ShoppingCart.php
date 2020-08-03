@@ -86,7 +86,7 @@
       <div class="CartR-Box">
         <span>Total:</span>
         <h1 id="totalPrice"></h1>
-        <a id="Checkout"  class="ChkOutBtn">Checkout</a>
+        <!--<a id="Checkout"  class="ChkOutBtn">Checkout</a>-->
       </div>
     </div>
     <!-- END CartR -->
