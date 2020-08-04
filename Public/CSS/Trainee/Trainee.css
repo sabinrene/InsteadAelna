@@ -109,19 +109,23 @@
 .Enrolled {
   position: relative;
   height: auto;
+  margin-left: 20px;
 }
   .T-row {
     position: relative;
     height: auto;
-    width: 1060px;
+    width: 1100px;
+    height: auto;
     margin: 0 auto;
     margin-top: 70px;
     margin-bottom: 100px;
+
   }
   .CardA {
     position: relative;
     float: left;
     margin-left: 20px;
+    margin-bottom: 50px;
     width: 250px;
     height: 350px;
     background: white;
@@ -131,6 +135,10 @@
     -moz-box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
     box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
   }
+  .CardA:first-child {
+    margin-left: 40px;
+  }
+
   .CardA:hover {
     -webkit-box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
     -moz-box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);

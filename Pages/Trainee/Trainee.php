@@ -40,7 +40,11 @@
           <h2> <span class="DarkGrey">Enrolled</span> Courses </h2>
 
           <div id="traineeCourses" class="T-row clearfix">
-<!-- END Card-A
+
+
+
+
+          <!--
             <div class="CardA">
                 <div class="CardA-PicFrame">
                   <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/11-Spring.jpg">
@@ -87,6 +91,31 @@
             </div>
 
 
+            <div class="CardA">
+                <div class="CardA-PicFrame">
+                  <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/05-Operations.jpg">
+                </div>
+                <div class="CardA-Cat">
+                    <p> Engineering </p>
+                </div>
+                <div class="CardA-Bot">
+                  <p> Introduction to Thermal & Fluid Sciences in Industrial Plants </p>
+                  <p class="CardRibbon"> Live Course </p>
+                </div>
+            </div>
+
+            <div class="CardA">
+                <div class="CardA-PicFrame">
+                  <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/05-Operations.jpg">
+                </div>
+                <div class="CardA-Cat">
+                    <p> Engineering </p>
+                </div>
+                <div class="CardA-Bot">
+                  <p> Introduction to Thermal & Fluid Sciences in Industrial Plants </p>
+                  <p class="CardRibbon"> Live Course </p>
+                </div>
+            </div>
 
 
             <div class="CardA">
@@ -101,7 +130,7 @@
                   <p class="CardRibbon"> Live Course </p>
                 </div>
             </div>
-             -->
+          -->
 
 
 
