@@ -136,10 +136,10 @@
                   <div class="NeophInfo">
                     <h2> Julian Orozco </h2>
                     <h3> Industrial IoT Architect  </h3>
-                    <p> Nuclear Engineer focused on IoT with 12 years of broad
-                      International Experience in Operations of Nuclear Reactors
-                      and Development of Interconnected Systems.
-
+                    <p> Nuclear Engineer focused on IoT with +12 years of broad
+                      International Experience in the Operations of Nuclear Reactors
+                      and Software Development of Interconnected Systems and Platforms
+                      on Cloud Services.
                     </p>
 
                       <div class="SocialMedia">
@@ -155,9 +155,11 @@
                   <div class="NeophInfo">
                     <h2> Alejandra Rozo </h2>
                     <h3> Software Developer </h3>
-                    <p> Glavi amet ritnisl libero molestie ante ut
-                      fringilla purus eros quis glavrid from dolor amet
-                      iquam lorem bibendum
+                    <p> With an experience of more than 7 years, Vipul has
+                      handled several projects in energy domain ranging from
+                      Oil and Gas to Solar power. He is responsible for the
+                      operations of solar projects and ensures smooth
+                      timely delivery.                      
                     </p>
 
                       <div class="SocialMedia">
