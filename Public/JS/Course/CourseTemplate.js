@@ -299,7 +299,7 @@ function updateStudentsLike(data){
       '<div id="selectCourses'   + i+     '" class="Liked-Row">'+
       '<img class="Liked-Row-Pic" src="../../Public/images/02-Course/Img-Course/'+ data[i]["imageCourse"] + '" alt="">'+
       //  '<div class="Liked-Row-Pic">        </div>'+
-        '<div class="Liked-Row-Title">   ' + data[i]["courseTitle"] + ': <br/>'+
+        '<div class="Liked-Row-Title">   ' + data[i]["courseTitle"] + ' <br/>'+
           '<span class="Liked-Row-Subtitle">' + data[i]["courseSubtitle"] + '</span>'+
         '</div>'+
         '<div class="Liked-Row-Price"> $' + data[i]["price"] + '</div>'+
