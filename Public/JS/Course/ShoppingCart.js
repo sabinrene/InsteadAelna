@@ -20,7 +20,9 @@ $.ajax("../../App/controller/read.php", {
 )
 
 function updateStudentsLike(data){
+
   for (var i = 0; i < 4; i++) {
+    if (data[i]["price"]!= "") {
     $('#liked').append(
       '<div id="selectCourses'   + i+     '" class="Liked-Row">'+
       '<img class="Liked-Row-Pic" src="../../Public/images/02-Course/Img-Course/'+ data[i]["imageCourse"] + '" alt="">'+
@@ -34,9 +36,10 @@ function updateStudentsLike(data){
       '<script type="text/javascript">'+
         'document.getElementById("selectCourses'   + i+     '").onclick = function(e){setIdCourse('   + data[i]["idCourse"]+     ')}'+
       '</script>'
-    )
+     )
+    }
+   }
   }
-}
 /*----------------------------- set Id courses  -------------------------------*/
 
 function setIdCourse(idCourse){

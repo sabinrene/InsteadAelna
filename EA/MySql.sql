@@ -8,7 +8,7 @@ SET FOREIGN_KEY_CHECKS=0
 ;
 /* Drop Tables */
 
-DROP TABLE IF EXISTS `Schedule` CASCADE
+DROP TABLE IF EXISTS `Schedule`
 ;
 DROP TABLE IF EXISTS `LearnRequirements`
 ;
