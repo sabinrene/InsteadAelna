@@ -245,6 +245,8 @@ function onlineCoursesButton (){
 }
 
         if (data[i]["module"]== "Option 3") {
+          if (data[i]["price"]!= ""){
+
             $('#course-Design').append(
               '<div id="selectCourse'   + i+     '" > '+
                 '<div id="InsTabs-Card'   + i+     '" class="InsTabs-Card">'+
@@ -261,7 +263,10 @@ function onlineCoursesButton (){
               '</script>'
             );
           }
+        }
           if (data[i]["liveOnline"]!=null) {
+            if (data[i]["price"]!= ""){
+
             $('#course-All').append(
               '<div id="selectCourses'   + i+     '" > '+
                 '<div id="InsTabs-Card2'   + i+     '" class="InsTabs-Card">'+
@@ -282,11 +287,13 @@ function onlineCoursesButton (){
             );
           }
 
+        }
 
 
 
+          if (data[i]["liveOnline"]!=null) {
 
-          if (data[i]["liveOnline"]!=null && ) {
+            if (data[i]["price"]!= ""){
 
             $('#course-All2').append(
               '<div id="selectCourses'   + i+     '" > '+
@@ -306,12 +313,9 @@ function onlineCoursesButton (){
                 'document.getElementById("selectCourses'   + i+     '").onclick = function(e){setIdCourse('   + data[i]["idCourse"]+     ')}'+
               '</script>'
             );
+
           }
-
-
-
-
-
+        }
       }
     }
 
