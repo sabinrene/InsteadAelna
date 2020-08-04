@@ -50,18 +50,13 @@
 
       <div class="Cont-1">
           <h1> What is Instead? </h1>
-          <p> Ulysta is a brainchild of first generation entrepreneur from
-            Germany and India to provide specialized Consulting and
-            Engineering services to the various industries like Oil and Gas
-            and Power. Through our strategic partnership, we bring
-            extremely high quality consulting and engineering services and
-            dedicated to pleasing clients by giving them what they
-            want before the competitors. </p>
-
-          <p> Ulysta offering homogeneous blend of engineering services and
-            consulting solutions for various business needs of Oil & Gas
-            Owner/Operators/Process Licensor’s/EPC’s & Engineering
-            companies for the complete Plant Project Life Cycle. </p>
+          <p> We are a global company that offers Engineering, Technology,
+            and Design Live & Online specialized Courses. Instead combines
+            deep industry experience, technical expertise and a global delivery
+            model to create a value-based solution for customer requirements.
+            Instead’s success has been built upon its partner relationships
+            and on the unstinted support and patronage of its
+            clients across the globe. </p>
 
       </div>
       <!-- END Cont 1 -->

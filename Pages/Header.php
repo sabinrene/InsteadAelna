@@ -17,7 +17,7 @@
       </div>
 
       <div class="div ">
-          <a class="btn" id="trainerWebpage" href="Pages/AboutUs.php">About Us</a>
+          <a class="btn" id="trainerWebpage" href="../AboutUs.php">About Us</a>
       </div>
   </div>
 </div>

@@ -23,9 +23,8 @@
 </head>
 
 
+
 <body>
-
-
 
   <div class="bg-modal" id="bg-modal"></div>
   <?php include ("Pages/Header.php"); ?>

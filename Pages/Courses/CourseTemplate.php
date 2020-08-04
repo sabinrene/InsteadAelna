@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 <title>Instead Preview</title>
 <meta charset="utf-8">
@@ -26,12 +27,14 @@
 <body>
 
 
-  <div class="bg-modal" id="bg-modal"></div>
-  <?php include ("../../Pages/Header.php"); ?>
-	<?php include ("../../Pages/Trainee/TraineeMenu.php"); ?>
-  <?php include ("../../Pages/Modals.php"); ?>
-  <input class="hide" type="text" id="logIn2" value="../../">
-  <input id="page" class="hide" type="text" name="" value="CourseTemplate">
+    <div class="bg-modal" id="bg-modal"></div>
+    <?php include ("../../Pages/Header.php"); ?>
+  	<?php include ("../../Pages/Trainee/TraineeMenu.php"); ?>
+    <?php include ("../../Pages/Modals.php"); ?>
+    <input class="hide" type="text" id="logIn2" value="../../">
+    <input id="page" class="hide" type="text" name="" value="CourseTemplate">
+
+
 
 
 
@@ -106,22 +109,7 @@
 							</ul>
 					</div>
 
-          <!--
-          <div id="timeCourse" class="timeCourse">
-            <h3>Schedule</h3>
-             <div class="days">
-               Monday      2pm   4pm
-             </div>
 
-             <div class="days">
-               Wednesday   2pm   4pm
-             </div>
-
-             <div class="days">
-               Friday      2pm   4pm
-             </div>
-          </div>
-          -->
 
 	<h2> Description </h2>
 					<div id="description" class="Desc">
@@ -282,12 +270,6 @@
 
 
 
-
-
-
-
-
-<!--
     <div class="Row2 clearfix">
 
       <div class="Schedule">
@@ -333,7 +315,7 @@
 
       </div>
 
-    </div>   -->
+    </div>
     <!-- END Row2 -->
 
 
