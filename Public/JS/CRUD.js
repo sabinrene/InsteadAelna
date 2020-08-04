@@ -95,11 +95,24 @@ var topicOption = document.getElementById("choices").options[document.getElement
 /*------------------------------- Update Course --------------------------------*/
 $("#updateCourse").click(function(){//
 
+  var day=[];
+    for (var i = 1; i < 8; i++){
+      if ($('#'+i).is(":checked")){
+        alert("entramos ");
+      //if ($('#start'+i).val()!=='' && ('#finish'+i).val()!=='') {//$('#start'+i).val()!=undefined && ('#finish'+i).val()!=undefined
+      //  day[i] = {day:$('#'+i).val(),timeStart:$('#start'+i).val(),timeFinish:$('#finish'+i).val()  };
+        day[i] = $('#'+i).val();
+        // alert(weeksDays[i].day);
+      //}
+    /*  else {
+        alert("Please add all times in the schedule");
+      }*/
+     }
+    }
 
-
+     day = JSON.stringify(day);
 //var description =document.getElementById('editor-richText-box').contentWindow.document.body.innerHTML;
   var description = document.getElementById("textAreaDescription").value
-alert(description);
   var moduleOption = document.getElementById("options").options[document.getElementById("options").selectedIndex].value;
   var topicOption = document.getElementById("choices").options[document.getElementById("choices").selectedIndex].value;
 
@@ -110,6 +123,15 @@ alert(description);
   data.append('courseDescription', description);
   data.append('levelOption', "   ");
   data.append('moduleOption', moduleOption);
+  data.append('linkZoom', $("#linkZoom").val());
+
+
+
+    data.append('day', day);
+
+
+
+
   data.append('price', $("#price").val());
   data.append('topicOption', topicOption);
   data.append('courseTaught',"" );

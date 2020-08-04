@@ -32,25 +32,43 @@ require_once('../model/UserCourse.php');
           $updateCourse->queryImage();
           $updateCourse->setValuesImage($_FILES['file'],$_SESSION["idUser"],$_SESSION["idCourse"],'02-Course/Img-Course/');
           $updateCourse->uploadImage();
- 
+
 
           $updateCourse->setValuesCourse(
             $_POST['courseTitle'], $_POST['courseSubtitle'], $_POST['courseDescription'],
             $_POST['levelOption'],$_POST['moduleOption'],$_POST['topicOption'],
             $_POST['courseTaught'],$_SESSION["idCourse"],$_POST['price'],
-            $timeCourseStart,$timeCourseFinish,$_POST['liveOnline']
+            $timeCourseStart,$timeCourseFinish,$_POST['liveOnline'],$_POST['linkZoom']
           );
           $updateCourse->upadteCourseImage();
-
       }
+
+
+
+       $myArray = json_encode($_POST['day']);
+
+    // $myArray = json_decode( stripslashes ($_POST['day'] )  );
+       ///$data =
+
+       echo $myArray;
+
+
+
+    /*  foreach($_POST['schedule'] as $i => $item) {
+        echo $item[$i]['day'];
+        echo $item[$i]['timeStart'];
+        echo $item[$i]['timeFinish'];
+    }*/
+
+
+
 
       $updateCourse->setValuesCourse(
         $_POST['courseTitle'], $_POST['courseSubtitle'], $_POST['courseDescription'],//
         $_POST['levelOption'],$_POST['moduleOption'],$_POST['topicOption'],
         $_POST['courseTaught'],$_SESSION["idCourse"],$_POST['price'],//
-        $_POST['timeCourseStart'],$_POST['timeCourseFinish'],$_POST['liveOnline']
+        $_POST['timeCourseStart'],$_POST['timeCourseFinish'],$_POST['liveOnline'],$_POST['linkZoom']
       );
-
       $updateCourse->upadteCourse();
       echo "course has been updated";
     }
@@ -104,18 +122,15 @@ require_once('../model/UserCourse.php');
 
     }
     elseif ($_POST['type']=="updateLinkPDF") {
-
       $savePDF = new Update();
       $savePDF->queryPDF();
       $savePDF->setIdPDF($_POST['idPDF']);
       $savePDF->setLinkPDF($_POST['linkPDF']);
       $savePDF->updateLinkPDF();
-
     }
 
     /*------------------------------- UserCourse  --------------------------------*/
     elseif ($_POST['type']=="updateUserCourse") {
-      echo "entramos";
       session_start();
       $updateUserCourse = new Update();
       $updateUserCourse->queryBuy();
@@ -238,7 +253,7 @@ require_once('../model/UserCourse.php');
         $section = new Section($db);
         $this->section = $section;
       }
-      function setIdSection($idSection){
+    /*  function setIdSection($idSection){
         $this->section->setIdSection($idSection);
       }
       function setSectionName($sectionName){
@@ -246,7 +261,7 @@ require_once('../model/UserCourse.php');
       }
       function updateSectionName(){
         $this->section->updateSectionName();
-      }
+      }*/
 
 /*----------------------------------------------------------------------------*/
 /*--------------------------------- IMAGE ------------------------------------*/
@@ -286,7 +301,7 @@ require_once('../model/UserCourse.php');
     function  setValuesCourse(
     $courseTitle,$courseSubtitle,$courseDescription,//
     $levelOption,$moduleOption,$topicOption,
-    $courseTaught,$idCourse,$price,$timeCourseStart,$timeCourseFinish,$liveOnline){
+    $courseTaught,$idCourse,$price,$timeCourseStart,$timeCourseFinish,$liveOnline,$linkZoom){
       $this->course->setCourseTitle($courseTitle);
       $this->course->setCourseSubtitle($courseSubtitle);
       $this->course->setCourseDescription($courseDescription);
@@ -300,6 +315,7 @@ require_once('../model/UserCourse.php');
       $this->course->setTimeCourseStart($timeCourseStart);//
       $this->course->setTimeCourseFinish($timeCourseFinish);
       $this->course->setLiveOnline($liveOnline);
+      $this->course->setLinkZoom($linkZoom);
     }
     function upadteCourse(){
       $this->course-> upadate();

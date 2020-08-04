@@ -8,7 +8,6 @@ SET FOREIGN_KEY_CHECKS=0
 ;
 /* Drop Tables */
 
-
 DROP TABLE IF EXISTS `Schedule` CASCADE
 ;
 DROP TABLE IF EXISTS `LearnRequirements`
@@ -75,7 +74,6 @@ CREATE TABLE `Lectures`
 	`PracticalTheorical` VARCHAR(20) NULL,
 	CONSTRAINT `PK_Lectures` PRIMARY KEY (`idLecture` ASC)
 )
-
 ;
 
 CREATE TABLE `PDF`
@@ -90,14 +88,14 @@ CREATE TABLE `PDF`
 
 CREATE TABLE `Schedule`
 (
-	`idCourse` INT NOT NULL,
-	`idSchedule` INT NOT NULL ,
-	`day` VARCHAR(15) NULL,
+	 `idCourse` INT NOT NULL,
+	 `idSchedule` INT NOT NULL AUTO_INCREMENT,
+	`numberDay` INT NULL,
+	`day` VARCHAR(2) NULL,
 	`startTime` TIME NULL,
 	`finishTime` TIME NULL,
-	CONSTRAINT `PK_Schedule` PRIMARY KEY (`idCourse` ASC, `idSchedule` ASC)
+	CONSTRAINT `PK_Schedule` PRIMARY KEY (`idSchedule` ASC,`idCourse` ASC)
 )
-
 ;
 
 CREATE TABLE `Sections`
