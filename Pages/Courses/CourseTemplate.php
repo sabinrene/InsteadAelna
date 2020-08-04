@@ -308,7 +308,6 @@
               <td>  </td>
             </tr>
 
-
             <tr>
               <th> Sat </th>
               <td> 12pm - 3pm </td>

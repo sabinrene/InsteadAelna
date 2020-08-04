@@ -39,7 +39,7 @@
   <div class="Banner " id="Banner">
     <?php include ('Pages/Modals.php');?>
     <input id="page" class="hide" type="text" name="" value="index">
-      <img id="BannerImg" class="BannerImg BannerImg-Layer" src="Public/images/00-Home/Banners/Ban01-Bg.png" alt="">
+      <img id="BannerImg" class="BannerImg BannerImg-Layer" src="Public/images/00-Home/Banners/Ban01-Bg.jpg" alt="">
 
 
       <div class="BannerMsg">
@@ -221,9 +221,9 @@
             <h3> Live Training </h3>
             <p> Specialized Training tailored for Industry Professionals looking
               to deepen their knowledge on topics such as: <br/><br/> </p>
-              <p> Thermal & Fluid Sciences </p>
-              <p> Crude Exploration Technologies </p>
-              <p> Petroleum Production Technologies </p>
+              <p> SmartPlant 3D </p>
+              <p> SmartPlant P&IDs </p>
+              <p> SmartPlant Electrical </p>
               <br/>
 
 
@@ -250,9 +250,9 @@
                   on Structural, Mechanical, and Civil Engineering, and
                   cutting-edge topics like: <br/><br/>
 
-                <p> Internet-of-Things </p>
                 <p> Artificial Intelligence </p>
                 <p> Machine Learning </p>
+                <p> Big Data </p>
                 <p>  </p>
                 <br/>
 

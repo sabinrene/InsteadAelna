@@ -86,9 +86,9 @@
   .Hi h1 {
     position: relative;
     text-transform: none;
-    top: 45%;
-    right: 25%;
-    transform: translate(0,-50%);
+    top: 35%;
+    right: -10%;
+    transform: translate(10,-50%);
     color: whitesmoke;
   }
 
