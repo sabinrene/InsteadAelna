@@ -81,7 +81,7 @@ document.getElementById('logOut').onclick = function(e){
   }
  )
 }
-/*document.getElementById('Checkout').onclick = function(e){
+document.getElementById('Checkout').onclick = function(e){
 
   //addToCard();
     $.ajax("../../App/controller/Session.php", {
@@ -97,7 +97,8 @@ document.getElementById('logOut').onclick = function(e){
   )
     window.open("../../Pages/Cart/Checkout.php","_self");
 
-}*/
+
+}
 
 
 
