@@ -179,7 +179,9 @@ h1{
 /*---------------------------  New course  -----------------------------------*/
 .btn-new-course{
   left: 50%;
-  margin-top: 3%;
+  transform: translate(-50%,0%);
+
+  margin-top: 80px;
   position: relative;
   display: inline-block;
   background-color: #FF3440;
@@ -248,18 +250,38 @@ input:focus {
 
 .link-panel-body{
   position: relative;
-  width: 101%;
-  color: rgba(0,0,0,0);
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 650px;
+
   padding: 53px;
   font-weight: 600;
   font-size: 17px;
   height: 132px;
+}
+
+.link-panel-body p {
+  color: rgba(0,0,0,0);
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(0%,-50%);
 }
 .link-panel-body:hover  {
   position: relative;
   color: rgba(0,121,151,1);
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
+}
+
+.link-panel-body:hover p {
+  position: relative;
+  top: -60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: rgba(0,121,151,1);
+  cursor: pointer;
+
 }
 
 

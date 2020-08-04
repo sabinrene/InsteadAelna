@@ -81,7 +81,7 @@ function updateCourses(data,idUser){
 
          '<a href="../../Pages/Courses/Courses.php">'+
            '<div id="selectCourse'   + i+     '" class="link-panel-body">'+
-             'Edit Course'+
+             '<p>Edit Course</p>'+
            '</div>'+
          '</a>'+
 
