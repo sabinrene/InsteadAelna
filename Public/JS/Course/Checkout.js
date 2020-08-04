@@ -2,6 +2,9 @@
 document.getElementById('ShoppingCart').onclick = function(e){
  window.open("../../Pages/Cart/ShoppingCart.php","_self");
 }
+document.getElementById('MyCourses').onclick = function(e){
+ window.open("../../Pages/Trainee/Trainee.php","_self");
+}
 
 
 /*---------------------------- Buy course or courses --------------------------------*/
@@ -16,7 +19,7 @@ $.ajax("../../App/controller/Session.php", {
       readCoursetoBuy()
     }
     else {
-      readCoursestoBuy();
+    //  readCoursestoBuy();
     }
   }
 }
@@ -63,13 +66,6 @@ titileDescription = data['courseDescription'];
   $('#totalPrice').append('$'+ totalPrice);//("style", "background-color: red;"
 
 
-
-
-
-
-
-
-
   $('#paymentForm').append(
     "<form>"+
         "<script src='https://checkout.epayco.co/checkout.js'"+
@@ -96,6 +92,8 @@ titileDescription = data['courseDescription'];
   //    alert(document.getElementById("formulary").getAttribute('data-epayco-button'));
 
  }
+
+
 
 
  function sendIdCoursesToSession(idCourses){
@@ -374,9 +372,7 @@ return course;
 }
 
 
-document.getElementById('MyCourses').onclick = function(e){
- window.open("../../Pages/Trainee/Trainee.php","_self");
-}
+
 
 
 /*----------------- Show and hide modal right up user ------------------------*/

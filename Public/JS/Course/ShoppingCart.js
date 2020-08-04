@@ -4,6 +4,9 @@ document.getElementById('MyCourses').onclick = function(e){
 
 
 document.getElementById('ShoppingCart').style.visibility = 'hidden';
+
+
+
 /*----------------------------- Read courses ---------------------------------*/
 $.ajax("../../App/controller/read.php", {
   type: 'post',
@@ -18,6 +21,157 @@ $.ajax("../../App/controller/read.php", {
   }
  }
 )
+
+
+/*---------------------------- Buy course or courses --------------------------------*/
+$.ajax("../../App/controller/Session.php", {
+  type: 'post',
+  async: false,
+  data: {
+    type: "getBuyCourseOrCourses"
+  },
+  success: function(data){
+    if (data =='BuyCourse') {
+      readCoursetoBuy()
+    }
+    else {
+      readCoursestoBuy();
+    }
+  }
+}
+)
+
+/*---------------------------- Buy course --------------------------------*/
+
+function readCoursetoBuy() {
+  var totalPrice = 0;
+  var titleCourse = "";
+  var titileDescription = " ";
+  $.ajax("../../App/controller/read.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "readCourseById"
+    },
+    success: function(data){
+    data = JSON.parse(data);
+
+    const idCourses = [];
+    idCourses[0] = data['idCourse'];
+sendIdCoursesToSession(idCourses);
+
+titleCourse = data['courseTitle'];
+titileDescription = data['courseDescription'];
+
+
+
+
+    totalPrice =  updateCoursesCheckout(data);
+    }
+   }
+  )
+  $('#totalPrice').empty();
+  $('#totalPrice').append('$'+ totalPrice);//("style", "background-color: red;"
+
+
+  $('#paymentForm').append(
+    "<form>"+
+        "<script src='https://checkout.epayco.co/checkout.js'"+
+            "data-epayco-key='19dc45f2f08337bb051590e5cbbc8185'"+
+            "class='epayco-button'"+
+            "data-epayco-amount='"+totalPrice+"'"+
+            "data-epayco-tax='"+(totalPrice*0.19)+"'"+
+            "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
+            "data-epayco-name='"+titleCourse+"'"+
+            "data-epayco-description='"+titleCourse+"'"+
+            "data-epayco-currency='usd'"+
+            "data-epayco-country='CO'"+
+            "data-epayco-test='false'"+
+            "data-epayco-external='true'"+//App/controller/PaymentConfirmation.php
+            "data-epayco-response='http://www.insteadacademy.com/PaymentResponse.html'"+
+            "data-epayco-confirmation='http://www.insteadacademy.com/App/controller/PaymentConfirmation.php'"+
+            "data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>"+
+        "</script>"+
+    "</form>"
+  );
+
+//data-epayco-button
+  //  document.getElementById("formulary").setAttribute('data-epayco-button',"../../Public/images/00-Home/Instead.png");
+  //    alert(document.getElementById("formulary").getAttribute('data-epayco-button'));
+
+ }
+
+
+
+
+ function sendIdCoursesToSession(idCourses){
+
+   dataString = idCourses; // array?
+ var jsonString = JSON.stringify(dataString);
+
+ $.ajax("../../App/controller/Session.php",{
+   type: 'post',
+   async: false,
+   data: {
+     type: "setIdCourses",
+     idCourses: jsonString
+   },
+   success: function(data){
+   }
+  }
+ )
+}
+
+
+/*---------------------------- update courses --------------------------------*/
+
+  function updateCoursesCheckout(data){
+    if (isNumber(  parseFloat(  data["price"] )  )) {
+      $('#Check-L').append(
+        '<div class="CartL-Box">'+
+
+                '<!-- <div class="CartL-BoxPic">'+
+                  '<img class="BoxPic" src="../../Public/images/02-Course/Img-Course/'+ data["imageCourse"] + '" alt="">'+
+                '</div>  -->'+
+
+                '<div class="CartL-Titles">'+
+                  '<h3> '+ data["courseTitle"] + ' </h3>'+
+                '</div>'+
+
+                '<div class="CartL-Price"> $'+ data["price"] + ' </div>'+
+          '</div>'
+      )
+    }
+    return  data["price"];
+  }
+
+  function isNumber(n){
+      return Number(n)=== n;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function updateStudentsLike(data){
 
