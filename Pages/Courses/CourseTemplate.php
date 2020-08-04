@@ -266,7 +266,7 @@
 
 
 
-    <div class="Row2 clearfix">
+    <div id="timeCourse" class="Row2 clearfix">
 
       <div class="Schedule">
 
