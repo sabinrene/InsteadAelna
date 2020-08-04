@@ -51,7 +51,7 @@ if (course["topic"]=="Option 3") {
   $('#traineeCourses').append(//Public/images/02-Course/Img-Course/5ed2fc62908a79.45197522.jpg
     '<div id="selectMyCourses'   + i+     '" class="CardA">'+
         '<div class="CardA-PicFrame">'+
-          '<img class="CardA-Pic" src="../../Public/images/02-Course/Img-Course/'   + course["idCourse"]+     '">'+
+          '<img class="CardA-Pic" src="../../Public/images/02-Course/Img-Course/'   + course["imageCourse"]+     '">'+
         '</div>'+
         '<div class="CardA-Cat">'+
             '<p> '+topic+' </p>'+

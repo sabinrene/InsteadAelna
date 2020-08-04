@@ -10,7 +10,7 @@ $.ajax("../../App/controller/Session.php", {
   async: false,
   data: {
     type: "getBuyCourseOrCourses"
-  },
+  },  
   success: function(data){
     if (data =='BuyCourse') {
       readCoursetoBuy()
