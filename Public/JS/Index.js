@@ -286,7 +286,8 @@ function onlineCoursesButton (){
 
 
 
-          if (data[i]["liveOnline"]!=null) {
+          if (data[i]["liveOnline"]!=null && ) {
+
             $('#course-All2').append(
               '<div id="selectCourses'   + i+     '" > '+
                 '<div id="InsTabs-Card2'   + i+     '" class="InsTabs-Card">'+

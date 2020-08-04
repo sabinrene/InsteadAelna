@@ -294,8 +294,10 @@ $.ajax("../../App/controller/read.php", {
 )
 
 function updateStudentsLike(data){
-  for (var i = 0; i < 4; i++) {
-    if (data[i]["price"]!= "") {
+  for (var i = 0; i < data.length; i++){
+  //  alert(data[i]["price"]);
+    //if (data[i]["price"]!= null){
+      alert(data[i]["price"]);
       $('#liked').append(
         '<div id="selectCourses'   + i+     '" class="Liked-Row">'+
         '<img class="Liked-Row-Pic" src="../../Public/images/02-Course/Img-Course/'+ data[i]["imageCourse"] + '" alt="">'+
@@ -310,7 +312,7 @@ function updateStudentsLike(data){
           'document.getElementById("selectCourses'   + i+     '").onclick = function(e){setIdCourse('   + data[i]["idCourse"]+     ')}'+
         '</script>'
       )
-    }
+  //  }
   }
 }
 
