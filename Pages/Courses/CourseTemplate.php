@@ -39,10 +39,6 @@
 
 
 
-
-
-
-
 <!-- CourseTemp-->
 
 
@@ -311,6 +307,20 @@
               <td> 12pm - 3pm </td>
               <td>  </td>
             </tr>
+
+
+            <tr>
+              <th> Sat </th>
+              <td> 12pm - 3pm </td>
+              <td>  </td>
+            </tr>
+
+            <tr>
+              <th> Sun </th>
+              <td> 12pm - 3pm </td>
+              <td>  </td>
+            </tr>
+
           </table>
 
       </div>
