@@ -34,10 +34,9 @@
 
 
 .Cart-Wrap {
-
     position: relative;
-    width: 80%;
-    min-height: 10px;
+    width: 1200px;
+    min-height: 100px;
     height: auto;
     margin: 0 auto;
     border-bottom: 1px solid black;
@@ -45,12 +44,11 @@
 
   .CartL {
     position: relative;
-    width: 780px;
+    width: 800px;
     float: left;
     margin: 40px 0;
     padding: 10px;
     height: auto;
-    font-size: 0.95em;
   }
     .CartL-Box {
       border: 1px solid lightgray;
@@ -82,26 +80,28 @@
     .CartL-Titles {
       position: relative;
       float: left;
-      padding-left: 4px;
-      width: 450px;
+      width: 470px;
       height: 100%;
+
+      padding-left: 4px;
       overflow: hidden;
       vertical-align: middle;
     }
     .CartL-Titles h3 {
       position: relative;
-      top: 35%;
+      top: 30px;
       left: 3%;
       transform: translate(0%,-50%);
+      font-size: 1.2em;
     }
     .CartL-Titles p {
       position: relative;
-      top: 35%;
+      top: 30px;
       left: 2.5%;
       transform: translate(0%,-50%);
       color: #686f7a;
       font-weight: 600;
-      font-size: 1.1em;
+      font-size: 1em;
     }
 
     .CartL-rem {

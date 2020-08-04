@@ -70,48 +70,37 @@
       <div class="Chk-Box">
           <h2> Summary </h2>
           <p> Total Price:    <span id="totalPrice"> </span> </p>
-          <hr>
+          <hr class="Separator">
           <p class="smallprint"> Proceed to Complete the Purchase
             and Payment Information.
              </p>
 
 
+             <img src="../../Public/images/CheckOut/FinTech.png" class="FinTech">
 
+            <div id="paymentForm" class="Epayco">
 
-
-
-
-
-<div id="paymentForm" >
-
-
-  <!--
-  <form>
-      <script src='https://checkout.epayco.co/checkout.js'
-          data-epayco-key='19dc45f2f08337bb051590e5cbbc8185'
-          class='epayco-button'
-          data-epayco-amount='11800'
-          data-epayco-tax='1800'
-          data-epayco-tax-base='10000'
-          data-epayco-name='aelna'
-          data-epayco-description='grglksdjflasdjkflj'
-          data-epayco-currency='COP'
-          data-epayco-country='CO'
-          data-epayco-test='false'
-          data-epayco-external='true'
-          data-epayco-response='s'
-          data-epayco-confirmation='s'
-          data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>
-      </script>
-  </form>
-
--->
-
-</div>
-
-
-
-
+              <!--
+              <form>
+                  <script src='https://checkout.epayco.co/checkout.js'
+                      data-epayco-key='19dc45f2f08337bb051590e5cbbc8185'
+                      class='epayco-button'
+                      data-epayco-amount='11800'
+                      data-epayco-tax='1800'
+                      data-epayco-tax-base='10000'
+                      data-epayco-name='aelna'
+                      data-epayco-description='grglksdjflasdjkflj'
+                      data-epayco-currency='COP'
+                      data-epayco-country='CO'
+                      data-epayco-test='false'
+                      data-epayco-external='true'
+                      data-epayco-response='s'
+                      data-epayco-confirmation='s'
+                      data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>
+                  </script>
+              </form>
+            -->
+            </div>
 
 
 
