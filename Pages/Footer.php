@@ -46,10 +46,10 @@
 
     <div class="footer-icons">
 
-    <a href="https://www.facebook.com/Instead-Academy-111041223985031"><i class="fa fa-facebook"></i></a>
-    <a href="https://twitter.com/InsteadAcademy"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.linkedin.com/company/instead-academy/"><i class="fa fa-linkedin"></i></a>
-    <a href="https://www.instagram.com/instead.academy/"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.facebook.com/Instead-Academy-111041223985031" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/InsteadAcademy" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/company/instead-academy/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/instead.academy/" target="_blank"><i class="fa fa-instagram"></i></a>
 
     </div>
 

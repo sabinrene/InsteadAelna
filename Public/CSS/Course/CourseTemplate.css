@@ -39,7 +39,7 @@ ul {
   min-height: auto;
 }
 .CourseTemp-HeadBg {
-  background-image: url("../../images/Black.png");
+  background-image: url("../../images/Bg2.png");
   background-size: cover;
   width: 100%;
   height: 320px;
@@ -534,7 +534,7 @@ ul {
 
       .Row2 {
         position: relative;
-        top: 300px;
+        top: 350px;
         height: 200px;
         font-size: 16px;
       }
