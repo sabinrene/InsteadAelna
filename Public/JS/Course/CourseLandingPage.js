@@ -270,21 +270,17 @@ function updateSchedule () {
       type: "readSchedule"
     },
     success: function(data) {
-      alert(data);
       data = JSON.parse(data);
       var indice = 1;
 
       for (i = 0; i < 7; i++) {
-        indice = indice + 1;
 
         if (data[i]['numberDay']!="0") {
-
           //  document.getElementById(i+1).value=data[i]['numberDay'];//
             document.getElementById("start"+indice).value=data[i]['startTime'];
             document.getElementById("finish"+indice).value=data[i]['finishTime'];
-
-
         }
+        indice = indice + 1;
 
 
 

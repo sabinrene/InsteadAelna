@@ -478,6 +478,7 @@ function readLecture(idSection) {
     );
 
         document.getElementById('timeCourse').style.display = 'block';
+        updateSchedule(data["idCourse"]);
 
 
 
@@ -495,6 +496,39 @@ function readLecture(idSection) {
 
     document.getElementById("courseSubtitle").innerHTML =  data["courseSubtitle"];
     document.getElementById("image").src = "../../Public/images/02-Course/Img-Course/"+ data["imageCourse"];
+  }
+
+
+
+
+  function updateSchedule () {
+    $.ajax("../../App/controller/read.php", {
+      type: 'post',
+      async: false,
+      data: {
+        type: "readSchedule"
+      },
+      success: function(data) {
+        data = JSON.parse(data);
+        var indice = 1;
+
+        for (i = 0; i < 7; i++) {
+
+          if (data[i]['numberDay']!="0") {
+            alert(data[i]['startTime']);
+            //  document.getElementById(i+1).value=data[i]['numberDay'];//
+            //  document.getElementById("start"+indice).value=data[i]['startTime'];
+            //  document.getElementById("finish"+indice).value=data[i]['finishTime'];
+          }
+          indice = indice + 1;
+
+
+
+        }
+
+     }
+    }
+   )
   }
 
   function updateUserTrainer(idUser){
