@@ -39,9 +39,8 @@
       <div id="MyCourses" class="MyCourses">
         <h2>My Courses</h2>
       </div>
-      <div id="AboutUs" class="AboutUs">
-        <h2>About us</h2>
-      </div>
+        <a class="AboutUs" id="" href="http://www.insteadacademy.com/Pages/AboutUs.php">About Us</a>
+
 
 
     </div>
