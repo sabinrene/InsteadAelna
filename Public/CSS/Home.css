@@ -1021,6 +1021,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         }
         .InsTabs-Card h5 {
             font-weight: lighter;
+            font-size: 0.9em;
+            color: black;
         }
 
         .InsTabs-Card:hover {
