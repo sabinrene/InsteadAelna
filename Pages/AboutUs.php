@@ -261,23 +261,11 @@
     <!-- END Team -->
 
 
-
-
   </div>
   <!-- END CourseArea -->
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
