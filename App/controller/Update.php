@@ -33,7 +33,6 @@ require_once('../model/Schedule.php');
           $updateCourse->setValuesImage($_FILES['file'],$_SESSION["idUser"],$_SESSION["idCourse"],'02-Course/Img-Course/');
           $updateCourse->uploadImage();
 
-
           $updateCourse->setValuesCourse(
             $_POST['courseTitle'], $_POST['courseSubtitle'], $_POST['courseDescription'],
             $_POST['levelOption'],$_POST['moduleOption'],$_POST['topicOption'],
@@ -43,16 +42,25 @@ require_once('../model/Schedule.php');
           $updateCourse->upadteCourseImage();
       }
 
-
-
        $day = json_decode($_POST['day']);
        $timeStart = json_decode($_POST['timeStart']);
        $timeFinish = json_decode($_POST['timeFinish']);
 
-
-
        for ($i=0; $i < count ($day); $i++) {
-         echo $day[$i].$timeStart[$i].$timeFinish[$i];
+
+         $Schedule = new Update();//$idCourse, $active , $day, $startTime, $finishTime
+         $Schedule->querySchedule();
+
+
+
+
+
+         $Schedule->setValues($_SESSION["idCourse"],1 ,$day[$i], $timeStart[$i],$timeFinish[$i]);
+
+
+         
+        // $Schedule->saveSchedule();
+        // echo $day[$i].$timeStart[$i].$timeFinish[$i];
        }
 
 
@@ -138,6 +146,27 @@ require_once('../model/Schedule.php');
 
   class Update
    {
+
+     /*----------------------------------------------------------------------------*/
+     /*-------------------------------- SCHEDULE -----------------------------------*/
+     /*----------------------------------------------------------------------------*/
+     private $Schedule;
+
+     function querySchedule(){
+       $db = new Database();
+       $this->Schedule = new Schedule($db);
+     }
+     function setValues($idCourse, $idWeek, $active, $startTime, $finishTime){
+       $this->Schedule ->setIdCourse($idCourse);
+       $this->Schedule ->setIdWeek($idWeek);
+       $this->Schedule ->setActive($active);
+       $this->Schedule ->setStartTime($startTime);
+       $this->Schedule ->setFinishTime($finishTime);
+
+     }
+     function saveSchedule(){
+       $this->Schedule->save();
+     }
      /*----------------------------------------------------------------------------*/
      /*-------------------------------- BUY -----------------------------------*/
      /*----------------------------------------------------------------------------*/

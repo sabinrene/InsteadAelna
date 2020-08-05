@@ -104,7 +104,7 @@ $("#updateCourse").click(function(){//
       if ($('#'+i).is(":checked")){
       //if ($('#start'+i).val()!=='' && ('#finish'+i).val()!=='') {//$('#start'+i).val()!=undefined && ('#finish'+i).val()!=undefined
       //  day[i] = {day:$('#'+i).val(),timeStart:$('#start'+i).val(),timeFinish:$('#finish'+i).val()  };
-        day[indice] = $('#'+i).val();//
+        day[indice] =  document.getElementById(i).value;//
         timeStart[indice] = document.getElementById("start"+i).value;
         timeFinish[indice] = document.getElementById("start"+i).value;
         //alert(timeFinish[indice]);
@@ -120,6 +120,9 @@ $("#updateCourse").click(function(){//
     }
 
      day = JSON.stringify(day);
+     timeStart = JSON.stringify(timeStart);
+     timeFinish = JSON.stringify(timeFinish);
+
 //var description =document.getElementById('editor-richText-box').contentWindow.document.body.innerHTML;
   var description = document.getElementById("textAreaDescription").value
   var moduleOption = document.getElementById("options").options[document.getElementById("options").selectedIndex].value;

@@ -91,7 +91,7 @@ CREATE TABLE `Schedule`
 	 `idCourse` INT NOT NULL,
 	 `idSchedule` INT NOT NULL AUTO_INCREMENT,
 	`numberDay` INT NULL,
-	`day` VARCHAR(2) NULL,
+	`day` VARCHAR(20) NULL,
 	`startTime` TIME NULL,
 	`finishTime` TIME NULL,
 	CONSTRAINT `PK_Schedule` PRIMARY KEY (`idSchedule` ASC,`idCourse` ASC)

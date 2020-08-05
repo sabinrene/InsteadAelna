@@ -29,13 +29,13 @@
         function save(){
           try{
             $sql = "INSERT INTO `Schedule`(`idCourse`, `numberDay`,`day`,`startTime`,`finishTime`)
-            VALUES ('$this->idCourse','1','$this->active','$this->startTime','$this->finishTime'),
-                ('$this->idCourse','2','$this->active','$this->startTime','$this->finishTime'),
-                ('$this->idCourse','3','$this->active','$this->startTime','$this->finishTime'),
-                ('$this->idCourse','4','$this->active','$this->startTime','$this->finishTime'),
-                ('$this->idCourse','5','$this->active','$this->startTime','$this->finishTime'),
-                ('$this->idCourse','6','$this->active','$this->startTime','$this->finishTime'),
-                ('$this->idCourse','7','$this->active','$this->startTime','$this->finishTime')
+            VALUES ('$this->idCourse','$this->active','Monday','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','$this->active','Tuesday','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','$this->active','Wednesday','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','$this->active','Thursday','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','$this->active','Friday','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','$this->active','Saturday','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','$this->active','Sunday','$this->startTime','$this->finishTime')
                 ";
 
             $this->con->conn()->exec($sql);
