@@ -7,7 +7,7 @@
     require_once('../model/RecWWYL.php');
     require_once('../model/PDF.php');
     require_once('../model/UserCourse.php');
-
+    require_once('../model/Schedule.php');
 /*-------------------------------  USERS  ------------------------------------*/
     if ($_POST['type'] == 'loginForm'){
       $registerForm = new Read();
@@ -157,10 +157,33 @@
          $verifyBuyCourse->getUserCourse();
        }
 
+       /*------------------------------- Schedule  -------------------------------*/
 
-
-
+       else if ($_POST['type'] == 'readSchedule'){
+         session_start();
+         $Schedule = new Read();
+         $Schedule->querySchedule();
+         $Schedule->setValues($_SESSION['idCourse']);
+         $Schedule->readSchedule();
+       }
 class Read{
+  /*----------------------------------------------------------------------------*/
+  /*-------------------------------- SCHEDULE -----------------------------------*/
+  /*----------------------------------------------------------------------------*/
+  private $Schedule;
+
+  function querySchedule(){
+    $db = new Database();
+    $this->Schedule = new Schedule($db);
+  }
+  function setValues($idCourse){
+    $this->Schedule ->setIdCourse($idCourse);
+  }
+  function readSchedule(){
+  echo  json_encode(  $this->Schedule->get()  );
+  }
+
+  /*-
   /*----------------------------------------------------------------------------*/
   /*-------------------------------- USER COURSE -------------------------------*/
   /*----------------------------------------------------------------------------*/

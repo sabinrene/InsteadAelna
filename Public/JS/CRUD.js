@@ -94,7 +94,6 @@ var topicOption = document.getElementById("choices").options[document.getElement
 
 /*------------------------------- Update Course --------------------------------*/
 $("#updateCourse").click(function(){//
-  alert($("#linkZoom").val());
 
   var day=[];
   var timeStart = [];
