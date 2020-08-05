@@ -273,6 +273,7 @@
       #Aelna { background-image: url("../images/AboutUs/Aelna.png"); }
       #Vipul { background-image: url("../images/AboutUs/Vipul.png"); }
       #Gaurav { background-image: url("../images/AboutUs/Gaurav.png"); }
+      #JC { background-image: url("../images/AboutUs/JC.png"); }
 
       .Neoph-in {
             position: relative;
@@ -362,5 +363,140 @@
               .NeophInfo p {
                 height: 145px;
               }
+
+      }
+
+
+
+
+
+
+/* Gamma */
+
+    .RowGamma {
+      position: relative;
+      height: 800px;
+      width: 350px;
+
+      top: 120px;
+      margin: 0 auto;
+    }
+      .NeophG {
+          position: relative;
+          float: left;
+          height: 350px;
+          width: 100%;
+        }
+        .NeophG:first-child {
+          margin-right: 40px;
+        }
+
+      .NeophGInfo {
+        position: relative;
+        height: 480px;
+        padding-top: 20px;
+      }
+      .NeophGInfo h2 {
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+      }
+
+      .NeophGInfo h3 {
+        text-align: center;
+        color: #e1273c;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+      }
+
+      .NeophGInfo p {
+        text-align: justify;
+        text-justify: inter-word;
+
+        padding: 0px 30px;
+        margin-bottom: 15px;
+        height: 180px;
+      }
+
+    .NeophGPic {
+      position: relative;
+      width: 100%;
+      height: 350px;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+      .NeophG-in {
+            position: relative;
+            float: right;
+            height: 350px;
+            width: 22%;
+            margin-left: 70px;
+      }
+
+
+            .SocialMediaG {
+              	/* Nichts */
+                position: relative;
+                top: 125px;
+                text-align: center;
+              }
+
+              .SocialMediaG a {
+              	display: inline-block;
+              	width: 35px;
+              	height: 35px;
+              	cursor: pointer;
+              	border-radius: 2px;
+
+              	font-size: 20px;
+              	color: #33383b;
+              	text-align: center;
+              	margin-right: 1px;
+              	margin-bottom: 10px;
+              }
+              .SocialMediaG a:hover {
+                color: #e1273c;
+              }
+
+
+
+
+
+      @media only screen and (max-width: 1700px) {
+
+        .RowGamma {
+                background: green;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 1330px) {
+
+      .RowGamma {
+
+          background: red;
+      }
+
+  }
+
+
+    @media only screen and (max-width: 1230px) {
+
+      .RowGamma {
+
+        background: lightblue;
+      }
+
+  }
+
+
+    @media only screen and (max-width: 1120px) {
+        .RowGamma {
+
+        }
 
       }
