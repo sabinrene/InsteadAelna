@@ -7,26 +7,31 @@ webshims.polyfill('forms forms-ext');
 
 
 
-document.getElementById("online").onclick =function(e){
+document.getElementById("online").onclick =function(e){//
 document.getElementById('timeCourse').style.display = 'none';
-if (document.getElementById('timeCurriculumStart')) {
+document.getElementById('ScheduleDays').style.display = 'none';
+document.getElementById('divLinkZoom').style.display = 'none';
+
+/*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
   document.getElementById('timeCurriculumFinish').style.display = 'none';
-}
+}*/
 //document.getElementById('timeCurriculumStart').style.display = 'none';
 //document.getElementById('timeCurriculumFinish').style.display = 'none';
 
 
 };
 
-document.getElementById("live").onclick =function(e){
+document.getElementById("live").onclick =function(e){//
 
 
 document.getElementById('timeCourse').style.display = 'block';
+document.getElementById('ScheduleDays').style.display = 'block';
+document.getElementById('divLinkZoom').style.display = 'block';
 
-if (document.getElementById('timeCurriculumStart')) {
+/*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
-  document.getElementById('timeCurriculumFinish').style.display = 'none';}
+  document.getElementById('timeCurriculumFinish').style.display = 'none';}*/
 
 
 
@@ -213,7 +218,6 @@ document.getElementById('choices').value = data["topic"];
 if (data["startTime"]==null&&data["endTime"]==null) {
   document.getElementById('timeCourseStart').value = "2020-01-01";
   document.getElementById('timeCourseFinish').value = "2020-01-01";
-
 }
 else {
   document.getElementById('timeCourseStart').value = data["startTime"];
@@ -224,6 +228,7 @@ else {
 if (data["liveOnline"]=="live") {//
   document.getElementById('timeCourse').style.display = 'block';
   document.getElementById('ScheduleDays').style.display = 'block';
+  document.getElementById('divLinkZoom').style.display = 'block';
 
 
   /*if (document.getElementById('timeCurriculumStart')) {
@@ -235,10 +240,11 @@ if (data["liveOnline"]=="live") {//
   $('#live' ).prop('checked',true);
   $('#online').prop('checked',false);
 }
-else if (data["liveOnline"]=="online") {
+else if (data["liveOnline"]=="online") {//
   document.getElementById('timeCourse').style.display = 'none';
-  document.getElementById('Monday').style.display = 'none';
-  document.getElementsByClassName('Schedule');
+  document.getElementById('ScheduleDays').style.display = 'none';
+  document.getElementById('divLinkZoom').style.display = 'none';
+
 /*
 if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
@@ -270,7 +276,7 @@ document.getElementById("image").src = "../../Public/images/02-Course/Img-Course
 //document.getElementById("openTextEditDescription").onclick =function(e){openTextEditDescription()}
 
 
-function openTextEditDescription(){
+/*function openTextEditDescription(){
   //Before we copy, we are going to select the text.
     var text = document.getElementById("courseDescription");
     var selection = window.getSelection();
@@ -285,7 +291,7 @@ function openTextEditDescription(){
 
     navigator.clipboard.readText().then(
   clipText => document.getElementById("editor-text-box").innerText = clipText);
-}
+}*/
 
 
 function addTopic(selectValue){

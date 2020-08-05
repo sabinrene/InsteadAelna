@@ -41,7 +41,25 @@
 
 
 <br><br><br>
+<label for="courseTitle">What you'll Learn</label>
 
+<div id="learnContainer">
+
+</div>
+
+<a class="addRequierements" id="addLearn"> + Objective </a>
+<br><br>
+
+
+
+
+
+
+<label for="courseTitle">Course Requirements</label>
+<div id="requierementsContainer">
+</div>
+<a class="addRequierements" id="addRequierements"> + Requirement </a>
+<br><br>
       <label for="">Type of course</label>
 
 
@@ -55,29 +73,18 @@
           <label class="liveOnline" for="online">Online Training</label><br>
         </div>
 
+
+        <br><br>
+
+<div id="divLinkZoom" class="divZoom">
+  <label for="linkZoom">Link zoom</label>
+  <input type="text" id="linkZoom" name="linkZoom" placeholder="Insert zoom link">
+</div>
 <br><br>
 
 
 
-        <label for="courseTitle">What you'll Learn</label>
 
-        <div id="learnContainer">
-
-        </div>
-
-        <a class="addRequierements" id="addLearn"> + Objective </a>
-        <br><br>
-
-
-
-
-
-
-      <label for="courseTitle">Course Requirements</label>
-      <div id="requierementsContainer">
-    </div>
-        <a class="addRequierements" id="addRequierements"> + Requirement </a>
-        <br><br>
 
 <div id="timeCourse" class="">
   <div  class="time">
@@ -102,46 +109,53 @@
 
   <div class="Schedule">
 
-    <label for="Monday">
-      <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <input id="" class="" type="time" /><input id="" class="" type="time" />
+    <label for="1">
+      <input type="checkbox" id="1" name="Monday" value="Monday">  Monday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input id="start1" class="" type="time" />
+      <input id="finish1" class="" type="time" />
     </label>
   </div>
 
-  <div class="Schedule"><label for="Tuesday">
-    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  <div class="Schedule"><label for="2">
+    <input type="checkbox" id="2" name="Tuesday" value="Tuesday">  Tuesday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="start2" class="" type="time" />
+    <input id="finish2" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="Wednesday">
-    <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">  Wednesday
-    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  <div class="Schedule"><label for="3">
+    <input type="checkbox" id="3" name="Wednesday" value="Wednesday">  Wednesday
+    <input id="start3" class="" type="time" />
+    <input id="finish3" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="Thursday">
-    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday &nbsp;&nbsp;&nbsp;
-    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  <div class="Schedule"><label for="4">
+    <input type="checkbox" id="4" name="Thursday" value="Thursday">  Thursday &nbsp;&nbsp;&nbsp;
+    <input id="start4" class="" type="time" />
+    <input id="finish4" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="Friday">
-    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  <div class="Schedule"><label for="5">
+    <input type="checkbox" id="5" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="start5" class="" type="time" />
+    <input id="finish5" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="Saturday">
-    <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">  Saturday &nbsp;&nbsp;&nbsp;&nbsp;
-    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  <div class="Schedule"><label for="6">
+    <input type="checkbox" id="6" name="Saturday" value="Saturday">  Saturday &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="start6" class="" type="time" />
+    <input id="finish6" class="" type="time" />
   </label>
   </div>
 
   <div class="Schedule">
-    <label for="Sunday">
-      <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <input id="" class="" type="time" /><input id="" class="" type="time" />
+    <label for="7">
+      <input type="checkbox" id="7" name="Sunday" value="Sunday">  Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input id="start7" class="" type="time" />
+      <input id="finish7" class="" type="time" />
     </label>
   </div>
 
@@ -206,6 +220,7 @@
                       <li class='item'>Full Online Access</li>
                       <li class="item"><b>Fast</b> upload </li>
                       <li class="item"><b>Online</b> Lectures </li>
+                      <li class="item"><b>MIN</b> 2 USD,   <b>MAX:</b>1200 </li>
                     </ul>
                   </div>
                     <input class="price pricetag" id="price" type="text"  placeholder="Price" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Price'">
