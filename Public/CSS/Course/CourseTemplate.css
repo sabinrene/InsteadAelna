@@ -36,8 +36,8 @@ ul {
   /* Course */
   /* ------ */
 .CourseTemplate {
-  min-height: 1250px;
-  background: red;
+  min-height: 1450px;
+  background: pink;
 }
 .CourseTemp-HeadBg {
   background-image: url("../../images/Bg2.jpg");
