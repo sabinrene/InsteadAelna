@@ -231,7 +231,7 @@ if (data["liveOnline"]=="live") {//
   document.getElementById('ScheduleDays').style.display = 'block';
   document.getElementById('divLinkZoom').style.display = 'block';
 
-
+  updateSchedule(data["idCourse"]);
   /*if (document.getElementById('timeCurriculumStart')) {
     document.getElementById('timeCurriculumStart').style.display = 'none';
     document.getElementById('timeCurriculumFinish').style.display = 'none';
@@ -262,7 +262,21 @@ document.getElementById("image").src = "../../Public/images/02-Course/Img-Course
 
 }
 
+function updateSchedule () {
+  $.ajax("../../App/controller/read.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "readSchedule"
+    },
+    success: function(data) {
+      alert(data);
+      data = JSON.parse(data);
 
+   }
+  }
+ )
+}
 
 
 
