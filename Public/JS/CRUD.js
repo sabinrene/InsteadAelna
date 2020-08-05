@@ -96,13 +96,22 @@ var topicOption = document.getElementById("choices").options[document.getElement
 $("#updateCourse").click(function(){//
 
   var day=[];
+  var timeStart = [];
+  var timeFinish = [];
+
+  var indice = 0;
     for (var i = 1; i < 8; i++){
       if ($('#'+i).is(":checked")){
-        alert("entramos ");
       //if ($('#start'+i).val()!=='' && ('#finish'+i).val()!=='') {//$('#start'+i).val()!=undefined && ('#finish'+i).val()!=undefined
       //  day[i] = {day:$('#'+i).val(),timeStart:$('#start'+i).val(),timeFinish:$('#finish'+i).val()  };
-        day[i] = $('#'+i).val();
-        // alert(weeksDays[i].day);
+        day[indice] = $('#'+i).val();//
+        timeStart[indice] = document.getElementById("start"+i).value;
+        timeFinish[indice] = document.getElementById("start"+i).value;
+        //alert(timeFinish[indice]);
+        indice = indice + 1;
+
+
+
       //}
     /*  else {
         alert("Please add all times in the schedule");
@@ -128,6 +137,8 @@ $("#updateCourse").click(function(){//
 
 
     data.append('day', day);
+    data.append('timeStart', timeStart);
+    data.append('timeFinish', timeFinish);
 
 
 

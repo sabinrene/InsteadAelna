@@ -109,42 +109,42 @@
 
   <div class="Schedule">
 
-    <label for="1">
+    <label for="">
       <input type="checkbox" id="1" name="Monday" value="Monday">  Monday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <input id="start1" class="" type="time" />
       <input id="finish1" class="" type="time" />
     </label>
   </div>
 
-  <div class="Schedule"><label for="2">
+  <div class="Schedule"><label for="">
     <input type="checkbox" id="2" name="Tuesday" value="Tuesday">  Tuesday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input id="start2" class="" type="time" />
     <input id="finish2" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="3">
+  <div class="Schedule"><label for="">
     <input type="checkbox" id="3" name="Wednesday" value="Wednesday">  Wednesday
     <input id="start3" class="" type="time" />
     <input id="finish3" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="4">
+  <div class="Schedule"><label for="">
     <input type="checkbox" id="4" name="Thursday" value="Thursday">  Thursday &nbsp;&nbsp;&nbsp;
     <input id="start4" class="" type="time" />
     <input id="finish4" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="5">
+  <div class="Schedule"><label for="">
     <input type="checkbox" id="5" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input id="start5" class="" type="time" />
     <input id="finish5" class="" type="time" />
   </label>
   </div>
 
-  <div class="Schedule"><label for="6">
+  <div class="Schedule"><label for="">
     <input type="checkbox" id="6" name="Saturday" value="Saturday">  Saturday &nbsp;&nbsp;&nbsp;&nbsp;
     <input id="start6" class="" type="time" />
     <input id="finish6" class="" type="time" />
@@ -152,7 +152,7 @@
   </div>
 
   <div class="Schedule">
-    <label for="7">
+    <label for="">
       <input type="checkbox" id="7" name="Sunday" value="Sunday">  Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <input id="start7" class="" type="time" />
       <input id="finish7" class="" type="time" />
