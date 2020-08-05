@@ -45,12 +45,12 @@ require_once('../model/UserCourse.php');
 
 
 
-       $myArray = json_encode($_POST['day']);
+    //   $myArray = json_encode($_POST['day']);
 
     // $myArray = json_decode( stripslashes ($_POST['day'] )  );
        ///$data =
 
-       echo $myArray;
+  //     echo $myArray;
 
 
 
