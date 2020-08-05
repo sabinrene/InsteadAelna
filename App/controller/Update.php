@@ -8,7 +8,7 @@ require_once('../model/Images.php');
 require_once('../model/RecWWYL.php');
 require_once('../model/PDF.php');
 require_once('../model/UserCourse.php');
-
+require_once('../model/Schedule.php');
 /*--------------------------------- COURSE -----------------------------------*/
     if ($_POST['type']=="updateCourse") {
       session_start();
@@ -45,20 +45,16 @@ require_once('../model/UserCourse.php');
 
 
 
-    //   $myArray = json_encode($_POST['day']);
-
-    // $myArray = json_decode( stripslashes ($_POST['day'] )  );
-       ///$data =
-
-  //     echo $myArray;
+       $day = json_decode($_POST['day']);
+       $timeStart = json_decode($_POST['timeStart']);
+       $timeFinish = json_decode($_POST['timeFinish']);
 
 
 
-    /*  foreach($_POST['schedule'] as $i => $item) {
-        echo $item[$i]['day'];
-        echo $item[$i]['timeStart'];
-        echo $item[$i]['timeFinish'];
-    }*/
+       for ($i=0; $i < count ($day); $i++) {
+         echo $day[$i].$timeStart[$i].$timeFinish[$i];
+       }
+
 
 
 
