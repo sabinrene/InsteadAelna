@@ -464,39 +464,31 @@
 
 
 
-
       @media only screen and (max-width: 1700px) {
 
         .RowGamma {
                 background: green;
+                margin-bottom: -500px;
         }
 
     }
 
-
     @media only screen and (max-width: 1330px) {
 
       .RowGamma {
-
-          background: red;
       }
 
   }
-
 
     @media only screen and (max-width: 1230px) {
 
       .RowGamma {
-
-        background: lightblue;
       }
 
   }
 
-
     @media only screen and (max-width: 1120px) {
         .RowGamma {
-
         }
 
       }
