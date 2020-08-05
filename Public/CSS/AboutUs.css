@@ -294,7 +294,7 @@
         .RowBeta {
           width: 1300px;
           height: auto;
-          margin-top: 100px;
+          margin-top: 200px;
           margin-bottom: 80px;
 
         }
@@ -375,11 +375,11 @@
 
     .RowGamma {
       position: relative;
-      height: 800px;
+      height: 200px;
       width: 350px;
 
-      top: 120px;
       margin: 0 auto;
+      margin-top: 100px;
     }
       .NeophG {
           position: relative;
@@ -467,8 +467,8 @@
       @media only screen and (max-width: 1700px) {
 
         .RowGamma {
-                background: green;
-                margin-bottom: -500px;
+            margin-top: 250px;
+            margin-bottom: -550px;
         }
 
     }
@@ -476,6 +476,7 @@
     @media only screen and (max-width: 1330px) {
 
       .RowGamma {
+            margin-top: 0px;
       }
 
   }
