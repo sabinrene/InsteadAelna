@@ -271,14 +271,14 @@
       <div class="Schedule">
 
         <h3> Course Schedule </h3>
+      <!--  <tr>
+          <th>  </th>
+          <th>  </th>
+          <th>  </th>
+        </tr>-->
+          <table id="Schedule">
 
-          <table>
-            <tr>
-              <th>  </th>
-              <th>  </th>
-              <th>  </th>
-            </tr>
-            <tr>
+          <!--  <tr>
               <th> Mo </th>
               <td> 10am - 1pm </td>
               <td>  </td>
@@ -318,7 +318,7 @@
               <th> Sun </th>
               <td> 12pm - 3pm </td>
               <td>  </td>
-            </tr>
+            </tr>-->
 
           </table>
 

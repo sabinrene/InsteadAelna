@@ -515,7 +515,22 @@ function readLecture(idSection) {
         for (i = 0; i < 7; i++) {
 
           if (data[i]['numberDay']!="0") {
-            alert(data[i]['startTime']);
+            $('#Schedule').append(
+
+              '<tr>'+
+                '<th> '+data[i]['day']+' </th>'+
+                '<td > '+data[i]['startTime'].substring(0,5)+' - '+data[i]['finishTime'].substring(0,5)+' </td>'+//class="OddRow"
+                '<td>  </td>'+
+              '</tr>'
+
+
+            )
+
+            /*
+
+            */
+
+        //    alert(data[i]['startTime']);
             //  document.getElementById(i+1).value=data[i]['numberDay'];//
             //  document.getElementById("start"+indice).value=data[i]['startTime'];
             //  document.getElementById("finish"+indice).value=data[i]['finishTime'];
