@@ -354,8 +354,6 @@ function onlineCoursesButton (){
 
 
 
-
-
     document.getElementById('right').onclick = function(e){
       document.getElementById('BannerImg').classList.add("slideInLeft");
       if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban03-Bg.jpg') {
