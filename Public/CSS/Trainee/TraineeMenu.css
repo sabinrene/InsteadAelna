@@ -138,7 +138,8 @@
 
 
 
-  .AboutUs{
+  .AboutUs {
+    display: inline-block;
     position: absolute;
     right: 20em;
     top: 50%;
@@ -148,13 +149,12 @@
     height: auto;
   }
   .AboutUs h2{
+    display: inline-block;
+
     font-size: 20px;
     color: #969696!important;
+  }
 
-  }
-  .AboutUs:hover{
-    color: black;
-  }
 
 
 
