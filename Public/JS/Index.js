@@ -354,18 +354,16 @@ function onlineCoursesButton (){
 
 
 
-
-
     document.getElementById('right').onclick = function(e){
       document.getElementById('BannerImg').classList.add("slideInLeft");
-      if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban03-Bg2.png') {
-        document.getElementById("BannerImg").src = 'Public/images/00-Home/Banners/Ban01-Bg.png';
+      if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban03-Bg.jpg') {
+        document.getElementById("BannerImg").src = 'Public/images/00-Home/Banners/Ban01-Bg.jpg';
       }
-      else if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban01-Bg.png') {
-        document.getElementById("BannerImg").src = 'Public/images/00-Home/Banners/Ban02-Bg.png';
+      else if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban01-Bg.jpg') {
+        document.getElementById("BannerImg").src = 'Public/images/00-Home/Banners/Ban02-Bg.jpg';
       }
-      else if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban02-Bg.png') {
-        document.getElementById("BannerImg").src = 'Public/images/00-Home/Banners/Ban03-Bg2.png';
+      else if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Banners/Ban02-Bg.jpg') {
+        document.getElementById("BannerImg").src = 'Public/images/00-Home/Banners/Ban03-Bg.jpg';
       }
       document.getElementById("BannerImg").addEventListener( "animationend",  function() {
         document.getElementById('BannerImg').classList.remove("slideInLeft");
