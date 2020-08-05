@@ -168,7 +168,7 @@
                     <p> With an innate love for writing code to solve complex
                       problems Alejandra has worked on multiple WebGL, Augmented
                       Reality and Unity projects collaborating on various
-                      Geographic Information System and Online Platforms.
+                      Geographic Information System & Online Platforms.
                     </p>
 
                       <div class="SocialMedia">
