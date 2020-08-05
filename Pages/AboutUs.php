@@ -38,7 +38,10 @@
 
 <!-- CourseTemp-->
 <div class="CTop">
-    <div class="Top-Title"> <h1> About Us </h1> </div>
+    <div class="Top-Title">
+      <h1> Welcome to INSTEAD! </h1>
+      <h2> Your journey of transition to being industry ready! </h2>
+     </div>
 </div>
 
 
@@ -49,14 +52,21 @@
   <div class="ContentArea">
 
       <div class="Cont-1">
-          <h1> What is Instead? </h1>
-          <p> We are a global company that offers Engineering, Technology,
-            and Design Live & Online specialized Courses. Instead combines
-            deep industry experience, technical expertise and a global delivery
-            model to create a value-based solution for customer requirements.
-            Instead’s success has been built upon its partner relationships
-            and on the unstinted support and patronage of its
-            clients across the globe. </p>
+          <h1> About Us </h1>
+          <p> The foundation of INSTEAD was laid in a quest to be a pioneer in
+            the providing professional trainings. The principles that were laid
+            along with the foundation stones for INSTEAD, aimed at enabling the
+            talent development, and paving the path for facilitating the
+            overall development process, by creating a long-term social impact.
+          </p><br/>
+          <p> With our global corporate associations, we bring in experience
+            of cutting-edge tools. INSTEAD has prepared world-class training
+            modules on various topics covering the scope of Energy, Power,
+            and Oil and Gas. Today, with extensive tie-ups across the
+            institutions, both on industry front and academics, INSTEAD has
+            created a nurturing ecosystem for students those who are striving
+            for a successful career, and organization who are looking for
+            passionate employees. </p>
 
       </div>
       <!-- END Cont 1 -->
@@ -64,12 +74,9 @@
 
       <!-- Cont 2 -->
       <div class="Cont-2">
-        <h1> Our Mission </h1>
-          <ul>
-            <li> 1. Integrity to all aspects of business, Committed, Empowered and Technically Capable People, Delivering Profitable Sustainability </li>
-            <li> 2. Comprehensive worldwide presence, Global expertise delivery, Responsive to customer preferences, Optimum customized solutions </li>
-            <li> 3. A trusted supplier, partner and customer, Collaborative approach to business, Willing to challenge and innovate, Seeking enduring customer relationships </li>
-          </ul>
+        <h1> Mission </h1>
+          <p> Our mission is to enhance the skills of professionals to make
+            them industry ready and increase their employability. </p>
       </div>
       <!-- END Cont 2 -->
 
@@ -85,7 +92,7 @@
                   <div class="LeadInfo">
                     <div class="LeadPic" id="Jairo"></div>
                     <h2> Jairo Fernandez </h2>
-                    <h3> Director Colombia </h3>
+                    <h3> Managing Director </h3>
                     <p> +30 years of broad international experience
                       with major engineering & construction companies
                       during the construction and operation of Oil & Gas,
@@ -109,7 +116,7 @@
 
                     <div class="LeadPic" id="Shani"></div>
                     <h2> Shani Rajpal </h2>
-                    <h3> Director India </h3>
+                    <h3> Managing Director </h3>
                     <p> A result oriented professional offering distinguished and qualitative
                       experience across engineering design and IT engineering, business
                       administration, corporate marketing and technical positioning.
@@ -159,7 +166,7 @@
                       handled several projects in energy domain ranging from
                       Oil and Gas to Solar power. He is responsible for the
                       operations of solar projects and ensures smooth
-                      timely delivery.                      
+                      timely delivery.
                     </p>
 
                       <div class="SocialMedia">
@@ -178,11 +185,11 @@
                   <div class="NeophPic" id="Vipul"></div>
                   <div class="NeophInfo">
                     <h2> Vipul Tyagi </h2>
-                    <h3> Operations Head Solar </h3>
-                    <p> With an experience of more than 7 years, Vipul has handled
-                      several projects in energy domain ranging from Oil and
-                      Gas to Solar power. He is responsible for the operations
-                      of solar projects and ensures smooth timely delivery.
+                    <h3> Manager – Business Strategy </h3>
+                    <p> With an experience of more than 8 years, Vipul has
+                      handled several projects in energy domain ranging from
+                      Oil and Gas to Renewable Energy. He is responsible for
+                      the INSTEAD operations.
                     </p>
 
                       <div class="SocialMedia">
