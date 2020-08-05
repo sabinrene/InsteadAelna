@@ -165,11 +165,10 @@
                   <div class="NeophInfo">
                     <h2> Alejandra Rozo </h2>
                     <h3> Software Developer </h3>
-                    <p> With an experience of more than 7 years, Vipul has
-                      handled several projects in energy domain ranging from
-                      Oil and Gas to Solar power. He is responsible for the
-                      operations of solar projects and ensures smooth
-                      timely delivery.
+                    <p> With an innate love for writing code to solve complex
+                      problems Alejandra has worked on multiple WebGL, Augmented
+                      Reality and Unity projects collaborating on various
+                      Geographic Information System Online Platforms.
                     </p>
 
                       <div class="SocialMedia">
