@@ -207,7 +207,8 @@ document.getElementById('courseSubtitle').value = data["courseSubtitle"];
 
 
 document.getElementById('textAreaDescription').value = data["courseDescription"];
-
+document.getElementById('linkZoom').value = data["zoomLink"];
+//
 
 document.getElementById('price').value = data["price"];
 document.getElementById('options').value = data["module"];

@@ -39,14 +39,31 @@
                 ";
 
             $this->con->conn()->exec($sql);
-
             $this->con->close();
-
               }
           catch(PDOException $e){
               echo $query . "<br>" . $e->getMessage();
             }
         }
+
+        function update(){
+          echo $this->idCourse."string".$this->idWeek."      ";
+            try{
+              $sql = "UPDATE `Schedule` SET
+              `numberDay` =  '$this->active',
+              `startTime` =  '$this->startTime',
+              `finishTime` =  '$this->finishTime'
+              WHERE `idCourse` =  '$this->idCourse' AND `day` =  '$this->idWeek'";
+              $this->con->conn()->exec($sql);
+              $this->con->close();
+                }
+            catch(PDOException $e){
+                echo $query . "<br>" . $e->getMessage();
+              }
+        }
+
+
+
 
 
         function getPDFByIdCourse(){

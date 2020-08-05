@@ -4,7 +4,7 @@ $(document).ready(function(){
 /*--------------------------------- USERS ------------------------------------*/
 /*----------------------------------------------------------------------------*/
 
-/*------------------------------ Save users ----------------------------------*/
+/*-------  ----------------------- Save users ----------------------------------*/
 $("#save").click(function(){
 
   var address = $( "#AdressAnduserType" ).val().split("&")[0];
@@ -94,6 +94,7 @@ var topicOption = document.getElementById("choices").options[document.getElement
 
 /*------------------------------- Update Course --------------------------------*/
 $("#updateCourse").click(function(){//
+  alert($("#linkZoom").val());
 
   var day=[];
   var timeStart = [];
@@ -127,7 +128,6 @@ $("#updateCourse").click(function(){//
   var description = document.getElementById("textAreaDescription").value
   var moduleOption = document.getElementById("options").options[document.getElementById("options").selectedIndex].value;
   var topicOption = document.getElementById("choices").options[document.getElementById("choices").selectedIndex].value;
-
   var data = new FormData();
   data.append('type', 'updateCourse');
   data.append('courseTitle', $("#courseTitle").val());

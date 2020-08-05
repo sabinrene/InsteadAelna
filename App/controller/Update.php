@@ -58,8 +58,8 @@ require_once('../model/Schedule.php');
          $Schedule->setValues($_SESSION["idCourse"],1 ,$day[$i], $timeStart[$i],$timeFinish[$i]);
 
 
-         
-        // $Schedule->saveSchedule();
+
+         $Schedule->updateSchedule();
         // echo $day[$i].$timeStart[$i].$timeFinish[$i];
        }
 
@@ -156,7 +156,7 @@ require_once('../model/Schedule.php');
        $db = new Database();
        $this->Schedule = new Schedule($db);
      }
-     function setValues($idCourse, $idWeek, $active, $startTime, $finishTime){
+     function setValues($idCourse, $active, $idWeek, $startTime, $finishTime){
        $this->Schedule ->setIdCourse($idCourse);
        $this->Schedule ->setIdWeek($idWeek);
        $this->Schedule ->setActive($active);
@@ -164,8 +164,8 @@ require_once('../model/Schedule.php');
        $this->Schedule ->setFinishTime($finishTime);
 
      }
-     function saveSchedule(){
-       $this->Schedule->save();
+     function updateSchedule(){
+       $this->Schedule->update();
      }
      /*----------------------------------------------------------------------------*/
      /*-------------------------------- BUY -----------------------------------*/

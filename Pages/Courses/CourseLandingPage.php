@@ -15,7 +15,7 @@
           <label for="options">Select a Module</label>
           <select id="options">
           <option value="" disabled selected>Select a Module</option>
-          <option value="Option 1">Technology</option>
+            <option value="Option 1">Technology</option>
           <option value="Option 2">Engineering</option>
           <option value="Option 3">Design</option>
           </select>
