@@ -219,7 +219,7 @@
 
           <div class="Card2-Title">
             <p> Specialized Training tailored for Industry Professionals looking
-              to improve their skills and  deepen their knowledge on various
+              to improve their technical skills and  deepen their knowledge on various
               topics such as: <br/><br/> </p>
               <p> SmartPlant 3D </p>
               <p> SmartPlant P&IDs </p>
