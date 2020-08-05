@@ -207,8 +207,7 @@ function verifyPayment(){
 
 document.getElementById('buyCourse').onclick = function(e){
 
-  alert("hola");
-/*  var verifyUser = verifySession();
+ var verifyUser = verifySession();
   if (verifyUser[2]==true) {
 
 
@@ -227,7 +226,7 @@ document.getElementById('buyCourse').onclick = function(e){
 
 }else {
   alert("Please login");
-}*/
+}
 }
 
 
