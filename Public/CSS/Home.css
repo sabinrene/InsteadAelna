@@ -798,8 +798,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   transform: translate(-115%,-50%);
 
   width: 550px;
-  height: 600px;
-  padding: 30px 50px;
+  height: 720px;
+
   background: white;
   margin-left: 80px;
 
@@ -819,26 +819,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
   .Card2-Pic {
     position: relative;
-    height: 100px;
-    width: 150px;
+    height: 300px;
+    width: 100%;
+
     margin: 0 auto;
     margin-bottom: 25px;
   }
+
+  .Card2-Pic-Live {
+    background: url("../images/00-Home/LiveClasses.jpg");
+    background-size: cover;
+  }
+  .Card2-Pic-Online {
+    background: url("../images/00-Home/OnlineClasses.jpg");
+    background-size: cover;
+  }
+
+    .Card2-Title {
+      padding: 20px;
+    }
+
     .Card2 h3 {
-      margin-bottom: 40px;
+      position: relative;
+      background: white;
+      height: 40px;
+      vertical-align: middle;
+      opacity: 0.8;
+      font-size: 1.5em;
+      top: 88%;
     }
     .Card2 p {
       font-size: 0.95em;
+      color: #333333;
     }
-
-
-
 
 
 
   .Card2-Btn {
     position: relative;
-    top: 40px;
+    top: 0px;
     border: 1px solid #5080d1;
     border-radius: 8px;
     padding: 10px;

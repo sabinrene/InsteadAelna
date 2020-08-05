@@ -213,14 +213,14 @@
 
         <!-- Card 2 -->
         <div class="Card2">
-          <div class="Card2-Pic">
-            <img src="Public/images/00-Home/01-One.png" alt="">
+          <div class="Card2-Pic Card2-Pic-Live">
+                <h3> Live Training </h3>
           </div>
 
           <div class="Card2-Title">
-            <h3> Live Training </h3>
             <p> Specialized Training tailored for Industry Professionals looking
-              to deepen their knowledge on topics such as: <br/><br/> </p>
+              to improve their skills and  deepen their knowledge on various
+              topics such as: <br/><br/> </p>
               <p> SmartPlant 3D </p>
               <p> SmartPlant P&IDs </p>
               <p> SmartPlant Electrical </p>
@@ -240,12 +240,11 @@
 
             <!-- Card 2 -->
             <div class="Card2">
-              <div class="Card2-Pic">
-                <img src="Public/images/00-Home/02-Two.png" alt="">
+              <div class="Card2-Pic Card2-Pic-Online">
+                <h3> Online Training </h3>
               </div>
 
               <div class="Card2-Title">
-                <h3> Online Training </h3>
                 <p> Join our Online Engineering Academy and explore Advanced Courses
                   on Structural, Mechanical, and Civil Engineering, and
                   cutting-edge topics like: <br/><br/>
