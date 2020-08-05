@@ -39,6 +39,9 @@
       <div id="MyCourses" class="MyCourses">
         <h2>My Courses</h2>
       </div>
+      <div id="AboutUs" class="AboutUs">
+        <h2>About us</h2>
+      </div>
 
 
     </div>
@@ -64,3 +67,5 @@
 
     <!-- MenuT-->
   </div>
+
+  <script src="www.insteadacademy/Public/JS/Trainee/TraineeMenu.js"></script>
