@@ -150,7 +150,10 @@
                     </p>
 
                       <div class="SocialMedia">
-                              <a href="#/"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                        <a href="#/"><i class="fa fa-linkedin"></i></a>
                       </div>
 
                   </div>
@@ -225,7 +228,34 @@
                 </div>
 
 
-            </div> <!-- END RowBETA -->
+            </div> <!-- END RowGamma -->
+
+
+            <div class="RowGamma clearfix">
+
+                <div class="NeophG">
+                  <div class="NeophGPic" id="JC"></div>
+                  <div class="NeophGInfo">
+                    <h2> Juan Carlos Salazar </h2>
+                    <h3> Marketing Director  </h3>
+                    <p> Brand strategist and business developer with +10 years
+                      of experience producing advertising for brands and helping
+                      leaders showcase their talent in the business world.
+                      Creative tactician in digital photography, media production,
+                      and direct sales.
+                    </p>
+
+                      <div class="SocialMediaG">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                        <a href="#/"><i class="fa fa-linkedin"></i></a>
+                      </div>
+
+                  </div>
+                </div>
+
+            </div> <!-- END RowGamma -->
 
       </div>
     <!-- END Team -->

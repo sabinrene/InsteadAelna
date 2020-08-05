@@ -14,7 +14,7 @@
 .Banner {  /*transition: width 2s, height 2s, transform 2s;*/
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 62vh;
     margin-bottom: 0px;
     background: black;
 }
@@ -29,14 +29,12 @@
 
 .BannerImg{
     position: absolute;
-    width: 100%;
     height: 110%;
   /*  background-image: url("../../Public/images/00-Home/Ban03.jpg"); */
     opacity: 0.60;
     z-index: 0;
-  }
-  .BannerImg img {
-    width: 10%;
+    width: 100%;
+    height: 110%;
   }
 
     .BannerImg-Layer {
@@ -1127,7 +1125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     width: 100%;
     height: auto;
     text-align: center;
-    margin: 80px 0px 50px 0px;
+    margin: 80px 0px 0px 0px;
 }
 .Clients-00 {
     position: relative;

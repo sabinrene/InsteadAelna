@@ -76,7 +76,7 @@
 .Hi {
     position: relative;
 
-    background-image: url("../../images/03-Trainee/Earth-Bg.jpg");
+    background-image: url("../../images/03-Trainee/StudentDash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -86,8 +86,8 @@
   .Hi h1 {
     position: relative;
     text-transform: none;
-    top: 35%;
-    right: -10%;
+    top: 25%;
+    right: -12.5%;
     transform: translate(10,-50%);
     color: whitesmoke;
   }
