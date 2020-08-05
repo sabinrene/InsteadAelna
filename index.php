@@ -393,10 +393,6 @@
 
 
 
-
-
-
-
 <div class="Ins2">
 	<div class="Ins2-wrap">
 	  <div id="course-All" class="Tabs-scroll-wrapper-All squares-All">

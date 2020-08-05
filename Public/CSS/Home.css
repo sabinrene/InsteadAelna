@@ -931,10 +931,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* -------------------- */
 /*        Cards          */
 /* -------------------- */
-.InsTabs-wrap {
+.InsTabs-wrap { /* Missing */
     position: relative;
     width: 100%;
     margin: 0 auto;
+    background: blue;
+    height: 1200px;
 }
 
     .InsTabs-Card {
@@ -1025,15 +1027,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .Ins2 {
     position: relative;
-    height: 800px;
-    background-color: #f6f6f6;
-
+    top: 0px;
+    background: #e8e8e8;
+    min-height: 1100px;
+    padding-bottom: 100px;
 }
 .Ins2-wrap {
     position: relative;
-    top: 60%;
-    height: auto;
-    transform: translate(0,-50%);
+    top: 80px;
+    min-height: auto;
+    background: green;
     width: 1050px;
     padding: 0 10px;
     margin: 0 auto;
