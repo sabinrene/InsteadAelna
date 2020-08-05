@@ -206,11 +206,10 @@ function verifyPayment(){
 /*------------------------------ buy course  ----------------------------------*/
 
 document.getElementById('buyCourse').onclick = function(e){
-  var verifyUser = verifySession();
+
+  alert("hola");
+/*  var verifyUser = verifySession();
   if (verifyUser[2]==true) {
-  //  destroySessionShoppingCard();
-  //  addToCard();
-  //  seeShoppingCard();
 
 
     $.ajax("../../App/controller/Session.php", {
@@ -228,7 +227,7 @@ document.getElementById('buyCourse').onclick = function(e){
 
 }else {
   alert("Please login");
- }
+}*/
 }
 
 
@@ -286,7 +285,6 @@ $.ajax("../../App/controller/read.php", {
     type: "readCourses"
   },
   success: function(data) {
-    console.log(data);
     data = JSON.parse(data);
     updateStudentsLike(data);
   }

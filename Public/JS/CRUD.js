@@ -26,7 +26,8 @@ $("#save").click(function(){
       success: function(data){
         alert(data);
       }
-    })
+    }
+  )
     document.getElementById('modal-login').style.display = 'block';
     document.getElementById('modal-signup').style.display = 'none';
  }
@@ -109,8 +110,6 @@ $("#updateCourse").click(function(){//
         timeFinish[indice] = document.getElementById("start"+i).value;
         //alert(timeFinish[indice]);
         indice = indice + 1;
-
-
 
       //}
     /*  else {
