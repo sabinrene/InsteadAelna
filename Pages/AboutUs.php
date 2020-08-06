@@ -54,19 +54,19 @@
       <div class="Cont-1">
           <h1> About Us </h1>
           <p> The foundation of INSTEAD was laid in a quest to be a pioneer in
-            the providing professional trainings. The principles that were laid
+            providing specialized professional training. The principles that were laid
             along with the foundation stones for INSTEAD, aimed at enabling the
-            talent development, and paving the path for facilitating the
-            overall development process, by creating a long-term social impact.
+            talent development, and paving the way for facilitating the
+            overall development process by creating a long-term social impact.
           </p><br/>
           <p> With our global corporate associations, we bring in experience
-            of cutting-edge tools. INSTEAD has prepared world-class training
+            in cutting-edge tools. INSTEAD has prepared world-class training
             modules on various topics covering the scope of Energy, Power,
-            and Oil and Gas. Today, with extensive tie-ups across the
+            and Oil & Gas. Today, with extensive tie-ups across
             institutions, both on industry front and academics, INSTEAD has
-            created a nurturing ecosystem for students those who are striving
-            for a successful career, and organization who are looking for
-            passionate employees. </p>
+            created a nurturing ecosystem for students who are striving
+            for a successful career, and organizations looking for
+            passionate potential employees. </p>
 
       </div>
       <!-- END Cont 1 -->
