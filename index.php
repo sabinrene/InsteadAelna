@@ -137,7 +137,7 @@
         in the energy branches. </p>
 
           <p> Students & Professionals will be trained on the advanced cutting-edge software
-            used in the energy industry Today!</p>
+            used in the energy industry today!</p>
 
       </div>
     </div>
