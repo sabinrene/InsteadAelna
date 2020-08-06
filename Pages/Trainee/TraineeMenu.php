@@ -64,7 +64,5 @@
 
 
 
-    <!-- MenuT-->
+    <!-- MenuT-->z
   </div>
-
-  <script src="www.insteadacademy/Public/JS/Trainee/TraineeMenu.js"></script>
