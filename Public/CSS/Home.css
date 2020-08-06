@@ -857,7 +857,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
   .Card2-Btn {
     position: relative;
-    top: 0px;
+    top: -18px;
     border: 1px solid #5080d1;
     border-radius: 8px;
     padding: 10px;
