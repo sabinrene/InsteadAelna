@@ -269,61 +269,55 @@
 
         <div id="timeCourse" class="Row2 clearfix">
 
-              <div class="Sch">
+            <div class="Schedule">
+              <h3> Course Schedule </h3>
+                <table id="Schedule" class="Schedule">
 
-                <h3> Course Schedule </h3>
-              <!--  <tr>
-                  <th>  </th>
-                  <th>  </th>
-                  <th>  </th>
-                </tr>-->
-                  <table id="Schedule" class="Schedule">
+                <!--  <tr>
+                    <th> Mo </th>
+                    <td> 10am - 1pm </td>
+                    <td>  </td>
+                  </tr>
 
-                  <!--  <tr>
-                      <th> Mo </th>
-                      <td> 10am - 1pm </td>
-                      <td>  </td>
-                    </tr>
+                  <tr>
+                    <th> Tu </th>
+                    <td class="OddRow"> 2pm - 4pm </td>
+                    <td>  </td>
+                  </tr>
 
-                    <tr>
-                      <th> Tu </th>
-                      <td class="OddRow"> 2pm - 4pm </td>
-                      <td>  </td>
-                    </tr>
+                  <tr>
+                    <th> Wd </th>
+                    <td> 12pm - 3pm </td>
+                    <td>  </td>
+                  </tr>
 
-                    <tr>
-                      <th> Wd </th>
-                      <td> 12pm - 3pm </td>
-                      <td>  </td>
-                    </tr>
+                  <tr>
+                    <th> Th </th>
+                    <td class="OddRow"> 2pm - 4pm </td>
+                    <td>  </td>
+                  </tr>
 
-                    <tr>
-                      <th> Th </th>
-                      <td class="OddRow"> 2pm - 4pm </td>
-                      <td>  </td>
-                    </tr>
+                  <tr>
+                    <th> F </th>
+                    <td> 12pm - 3pm </td>
+                    <td>  </td>
+                  </tr>
 
-                    <tr>
-                      <th> F </th>
-                      <td> 12pm - 3pm </td>
-                      <td>  </td>
-                    </tr>
+                  <tr>
+                    <th> Sat </th>
+                    <td> 12pm - 3pm </td>
+                    <td>  </td>
+                  </tr>
 
-                    <tr>
-                      <th> Sat </th>
-                      <td> 12pm - 3pm </td>
-                      <td>  </td>
-                    </tr>
+                  <tr>
+                    <th> Sun </th>
+                    <td> 12pm - 3pm </td>
+                    <td>  </td>
+                  </tr>-->
 
-                    <tr>
-                      <th> Sun </th>
-                      <td> 12pm - 3pm </td>
-                      <td>  </td>
-                    </tr>-->
+                </table>
 
-                  </table>
-
-              </div>
+            </div>
 
     </div>
     <!-- END Row2 -->
