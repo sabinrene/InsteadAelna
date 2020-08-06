@@ -246,8 +246,8 @@
 
               <div class="Card2-Title">
                 <p> Join our Online Engineering Academy and explore Advanced Courses
-                  on Structural, Mechanical, and Civil Engineering, and
-                  cutting-edge topics like: <br/><br/>
+                  on Structural, Mechanical, Civil Engineering, and
+                  dive into cutting-edge topics like: <br/><br/>
 
                 <p> Artificial Intelligence </p>
                 <p> Machine Learning </p>
