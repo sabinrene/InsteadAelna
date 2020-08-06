@@ -535,15 +535,17 @@ ul {
 
       .Row2 {
         position: relative;
-        top: 1000px;
-        height: 10px;
+        top: 1200px;
+        height: 100px;
+        background: blue;
         width: 98%;
         right: 10px;
         font-size: 16px;
       }
         .Schedule {
           position: relative;
-          top: -700px;
+          top: 20px;
+          background: blue;
           left: 50%;
           transform: translate(-25%, 0%);
         }
