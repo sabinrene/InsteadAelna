@@ -39,6 +39,8 @@
       <div id="MyCourses" class="MyCourses">
         <h2>My Courses</h2>
       </div>
+        <a class="AboutUs" id="" href="http://www.insteadacademy.com/Pages/AboutUs.php"><h2>About Us</h2></a>
+
 
 
     </div>
@@ -64,3 +66,5 @@
 
     <!-- MenuT-->
   </div>
+
+  <script src="www.insteadacademy/Public/JS/Trainee/TraineeMenu.js"></script>

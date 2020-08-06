@@ -23,23 +23,7 @@ $.ajax("../../App/controller/read.php", {
 )
 
 
-/*---------------------------- Buy course or courses --------------------------------*/
-$.ajax("../../App/controller/Session.php", {
-  type: 'post',
-  async: false,
-  data: {
-    type: "getBuyCourseOrCourses"
-  },
-  success: function(data){
-    if (data =='BuyCourse') {
-      readCoursetoBuy()
-    }
-    else {
-      readCoursestoBuy();
-    }
-  }
-}
-)
+
 
 /*---------------------------- Buy course --------------------------------*/
 
