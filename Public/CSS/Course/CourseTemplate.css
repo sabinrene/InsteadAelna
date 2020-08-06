@@ -3,6 +3,7 @@
   content: "";
   clear: both;
   display: table;
+  background-color: red;
 }
 
 body,html {
