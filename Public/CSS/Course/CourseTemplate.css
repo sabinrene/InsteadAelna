@@ -304,7 +304,7 @@ ul {
   position: absolute;
   right: 10px;
   width: 400px;
-  max-height: 230%; /* Fixes where RightBox goes down to */
+  height: 1050px;
   z-index: 10;
 }
 
@@ -535,19 +535,17 @@ ul {
 
       .Row2 {
         position: relative;
-        top: 350px;
-        height: 200px;
+        top: 1000px;
+        height: 10px;
+        width: 98%;
+        right: 10px;
         font-size: 16px;
       }
-        .About {
-          position: relative;
-          float: left;
-        }
         .Schedule {
           position: relative;
-          float: left;
-          left: 45%;
-          transform: translate(-50%, 0%);
+          top: -700px;
+          left: 50%;
+          transform: translate(-25%, 0%);
         }
           table {
             border-collapse: collapse;
