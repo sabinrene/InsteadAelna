@@ -236,7 +236,7 @@
                   <div class="NeophGPic" id="JC"></div>
                   <div class="NeophGInfo">
                     <h2> Juan Carlos Salazar </h2>
-                    <h3> Marketing Director  </h3>
+                    <h3> Marketing Consultant  </h3>
                     <p> Brand strategist and business developer with +10 years
                       of experience producing advertising for brands and helping
                       leaders showcase their talent in the business world.
