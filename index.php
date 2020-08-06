@@ -284,7 +284,7 @@
 <!-- Three Cols -->
 <div class="ThreeCols clearfix">
 
-    <h2> Explore our Topics </h2>
+    <h2> Explore our Courses </h2>
 
 <div class="ThreeCols-Wrap">
 
