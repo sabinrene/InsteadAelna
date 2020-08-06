@@ -269,7 +269,7 @@
 
         <div id="timeCourse" class="Row2 clearfix">
 
-              <div class="Schedule">
+              <div class="Sch">
 
                 <h3> Course Schedule </h3>
               <!--  <tr>
