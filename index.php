@@ -136,8 +136,8 @@
         and will be thoroughly acquainted with the operation of multiple units
         in the energy branches. </p>
 
-          <p> The Students & Professionals will be trained on the advanced cutting-edge software
-            used in the energy industry.</p>
+          <p> Students & Professionals will be trained on the advanced cutting-edge software
+            used in the energy industry Today!</p>
 
       </div>
     </div>
