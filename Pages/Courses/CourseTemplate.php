@@ -275,7 +275,7 @@
               <th>  </th>
               <th>  </th>
             </tr>-->
-              <table id="Schedule">
+              <table id="Schedule" class="Schedule">
 
               <!--  <tr>
                   <th> Mo </th>
